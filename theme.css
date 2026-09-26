@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.10.9
+   Fokus — v1.10.10
    Borderless, 18 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -1352,8 +1352,8 @@ body.fokus-collapsed.fokus-hide-status .status-bar {
   opacity: 0;
   pointer-events: none;
 }
-body.fokus-collapsed ::-webkit-scrollbar {
-  display: none;
+body.fokus-collapsed * {
+  scrollbar-width: none;
 }
 body.fokus-collapsed.fokus-hide-tabs.fokus-hide-header .mod-root .markdown-source-view.mod-cm6 .cm-scroller,
 body.fokus-collapsed.fokus-hide-tabs.fokus-hide-header .mod-root .markdown-preview-view {
