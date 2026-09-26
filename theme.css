@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.9.3
+   Fokus — v1.9.4
    Borderless, 18 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -38,9 +38,6 @@ settings:
                 label: Fokus (muted)
                 value: fokus-scheme-fokus-muted
             -
-                label: GitHub
-                value: fokus-scheme-github
-            -
                 label: Gruvbox
                 value: fokus-scheme-gruvbox
             -
@@ -58,6 +55,9 @@ settings:
             -
                 label: Paper
                 value: fokus-scheme-paper
+            -
+                label: Primer
+                value: fokus-scheme-primer
             -
                 label: Rosé Pine
                 value: fokus-scheme-rose-pine
@@ -806,8 +806,8 @@ body {
   --fk-on-accent: #2d353b;
 }
 
-/* ---- GitHub ----------------------------------------------- */
-.theme-light.fokus-scheme-github {
+/* ---- Primer ----------------------------------------------- */
+.theme-light.fokus-scheme-primer {
   --accent-h: 212;
   --accent-s: 92%;
   --accent-l: 45%;
@@ -832,7 +832,7 @@ body {
   --fk-quote: #d1d9e0;
   --fk-on-accent: #ffffff;
 }
-.theme-dark.fokus-scheme-github {
+.theme-dark.fokus-scheme-primer {
   --accent-h: 214;
   --accent-s: 93%;
   --accent-l: 62%;
