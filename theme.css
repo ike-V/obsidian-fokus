@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.9.5
+   Fokus — v1.10.0
    Borderless, 18 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -203,7 +203,7 @@ body {
 
   /* Borders */
   --divider-color: transparent;
-  --divider-color-hover: rgba(var(--fk-accent-rgb), 0.35);
+  --divider-color-hover: color-mix(in srgb, var(--fk-accent) 35%, transparent);
   --embed-border-left: none;
   --embed-border-right: none;
 
@@ -252,7 +252,6 @@ body {
   --fk-code: #f0eee6;
   --fk-accent: #b94a4a;
   --fk-accent-hover: #c75b5b;
-  --fk-accent-rgb: 236, 126, 126;
   --fk-link: #b94a4a;
   --fk-link-hover: #963939;
   --fk-accent-soft: #f9e1df;
@@ -277,7 +276,6 @@ body {
   --fk-code: #20201f;
   --fk-accent: #db6c6c;
   --fk-accent-hover: #e37373;
-  --fk-accent-rgb: 219, 108, 108;
   --fk-link: #db6c6c;
   --fk-link-hover: #e37373;
   --fk-accent-soft: rgba(219, 108, 108, 0.16);
@@ -304,7 +302,6 @@ body {
   --fk-code: #f9fafb;
   --fk-accent: #4f46e5;
   --fk-accent-hover: #6366f1;
-  --fk-accent-rgb: 99, 102, 241;
   --fk-link: #4f46e5;
   --fk-link-hover: #6366f1;
   --fk-accent-soft: #e0e7ff;
@@ -329,7 +326,6 @@ body {
   --fk-code: rgba(31, 41, 55, 0.5);
   --fk-accent: #6164f1;
   --fk-accent-hover: #818cf8;
-  --fk-accent-rgb: 99, 102, 241;
   --fk-link: #818cf8;
   --fk-link-hover: #c7d2fe;
   --fk-accent-soft: rgba(99, 102, 241, 0.2);
@@ -356,7 +352,6 @@ body {
   --fk-code: #f8f8fb;
   --fk-accent: #6f58e8;
   --fk-accent-hover: #8b78f7;
-  --fk-accent-rgb: 139, 120, 247;
   --fk-link: #6f58e8;
   --fk-link-hover: #8b78f7;
   --fk-accent-soft: #ece8ff;
@@ -381,7 +376,6 @@ body {
   --fk-code: rgba(58, 56, 71, 0.35);
   --fk-accent: #8b78f7;
   --fk-accent-hover: #a393ff;
-  --fk-accent-rgb: 139, 120, 247;
   --fk-link: #a393ff;
   --fk-link-hover: #d4ccff;
   --fk-accent-soft: rgba(139, 120, 247, 0.2);
@@ -408,7 +402,6 @@ body {
   --fk-code: #e5e9f0;
   --fk-accent: #5478a4;
   --fk-accent-hover: #81a1c1;
-  --fk-accent-rgb: 94, 129, 172;
   --fk-link: #4d6e96;
   --fk-link-hover: #81a1c1;
   --fk-accent-soft: #d8e3ef;
@@ -433,7 +426,6 @@ body {
   --fk-code: #3b4252;
   --fk-accent: #88c0d0;
   --fk-accent-hover: #8fbcbb;
-  --fk-accent-rgb: 136, 192, 208;
   --fk-link: #88c0d0;
   --fk-link-hover: #8fbcbb;
   --fk-accent-soft: rgba(136, 192, 208, 0.18);
@@ -460,7 +452,6 @@ body {
   --fk-code: #e6e9ef;
   --fk-accent: #8839ef;
   --fk-accent-hover: #7287fd;
-  --fk-accent-rgb: 136, 57, 239;
   --fk-link: #8839ef;
   --fk-link-hover: #7287fd;
   --fk-accent-soft: #e8dcfb;
@@ -485,7 +476,6 @@ body {
   --fk-code: rgba(49, 50, 68, 0.6);
   --fk-accent: #cba6f7;
   --fk-accent-hover: #b4befe;
-  --fk-accent-rgb: 203, 166, 247;
   --fk-link: #cba6f7;
   --fk-link-hover: #f5c2e7;
   --fk-accent-soft: rgba(203, 166, 247, 0.18);
@@ -512,7 +502,6 @@ body {
   --fk-code: #f2e5bc;
   --fk-accent: #c3550d;
   --fk-accent-hover: #af3a03;
-  --fk-accent-rgb: 214, 93, 14;
   --fk-link: #af3a03;
   --fk-link-hover: #d65d0e;
   --fk-accent-soft: #f5d9b8;
@@ -537,7 +526,6 @@ body {
   --fk-code: #32302f;
   --fk-accent: #fe8019;
   --fk-accent-hover: #fabd2f;
-  --fk-accent-rgb: 254, 128, 25;
   --fk-link: #fe8019;
   --fk-link-hover: #fabd2f;
   --fk-accent-soft: rgba(254, 128, 25, 0.18);
@@ -564,7 +552,6 @@ body {
   --fk-code: #f2e9e1;
   --fk-accent: #846ca0;
   --fk-accent-hover: #d7827e;
-  --fk-accent-rgb: 144, 122, 169;
   --fk-link: #82699e;
   --fk-link-hover: #d7827e;
   --fk-accent-soft: #ece4f3;
@@ -589,7 +576,6 @@ body {
   --fk-code: #1f1d2e;
   --fk-accent: #c4a7e7;
   --fk-accent-hover: #ebbcba;
-  --fk-accent-rgb: 196, 167, 231;
   --fk-link: #c4a7e7;
   --fk-link-hover: #ebbcba;
   --fk-accent-soft: rgba(196, 167, 231, 0.18);
@@ -616,7 +602,6 @@ body {
   --fk-code: #dfe0e5;
   --fk-accent: #1e73e7;
   --fk-accent-hover: #9854f1;
-  --fk-accent-rgb: 46, 125, 233;
   --fk-link: #1665d1;
   --fk-link-hover: #9854f1;
   --fk-accent-soft: #cddcf5;
@@ -641,7 +626,6 @@ body {
   --fk-code: #1f2335;
   --fk-accent: #7aa2f7;
   --fk-accent-hover: #7dcfff;
-  --fk-accent-rgb: 122, 162, 247;
   --fk-link: #7aa2f7;
   --fk-link-hover: #bb9af7;
   --fk-accent-soft: rgba(122, 162, 247, 0.18);
@@ -668,7 +652,6 @@ body {
   --fk-code: #f4eed7;
   --fk-accent: #644ac9;
   --fk-accent-hover: #a3144d;
-  --fk-accent-rgb: 100, 74, 201;
   --fk-link: #644ac9;
   --fk-link-hover: #a3144d;
   --fk-accent-soft: #e6e0f7;
@@ -693,7 +676,6 @@ body {
   --fk-code: #21222c;
   --fk-accent: #bd93f9;
   --fk-accent-hover: #ff79c6;
-  --fk-accent-rgb: 189, 147, 249;
   --fk-link: #bd93f9;
   --fk-link-hover: #ff79c6;
   --fk-accent-soft: rgba(189, 147, 249, 0.18);
@@ -720,7 +702,6 @@ body {
   --fk-code: #eee8d5;
   --fk-accent: #227bba;
   --fk-accent-hover: #6c71c4;
-  --fk-accent-rgb: 38, 139, 210;
   --fk-link: #2076b2;
   --fk-link-hover: #6c71c4;
   --fk-accent-soft: #d8e6ec;
@@ -745,7 +726,6 @@ body {
   --fk-code: #073642;
   --fk-accent: #3094da;
   --fk-accent-hover: #2aa198;
-  --fk-accent-rgb: 38, 139, 210;
   --fk-link: #3094da;
   --fk-link-hover: #2aa198;
   --fk-accent-soft: rgba(38, 139, 210, 0.2);
@@ -772,7 +752,6 @@ body {
   --fk-code: #f4f0d9;
   --fk-accent: #6e7e01;
   --fk-accent-hover: #35a77c;
-  --fk-accent-rgb: 141, 161, 1;
   --fk-link: #287e5e;
   --fk-link-hover: #8da101;
   --fk-accent-soft: #e8ecc6;
@@ -797,7 +776,6 @@ body {
   --fk-code: #343f44;
   --fk-accent: #a7c080;
   --fk-accent-hover: #83c092;
-  --fk-accent-rgb: 167, 192, 128;
   --fk-link: #83c092;
   --fk-link-hover: #a7c080;
   --fk-accent-soft: rgba(167, 192, 128, 0.18);
@@ -824,7 +802,6 @@ body {
   --fk-code: #eff2f5;
   --fk-accent: #0969da;
   --fk-accent-hover: #0550ae;
-  --fk-accent-rgb: 9, 105, 218;
   --fk-link: #0969da;
   --fk-link-hover: #0550ae;
   --fk-accent-soft: #ddf4ff;
@@ -849,7 +826,6 @@ body {
   --fk-code: #151b23;
   --fk-accent: #4493f8;
   --fk-accent-hover: #58a6ff;
-  --fk-accent-rgb: 68, 147, 248;
   --fk-link: #4493f8;
   --fk-link-hover: #79c0ff;
   --fk-accent-soft: rgba(68, 147, 248, 0.15);
@@ -876,7 +852,6 @@ body {
   --fk-code: #f2f0e5;
   --fk-accent: #24837b;
   --fk-accent-hover: #205ea6;
-  --fk-accent-rgb: 36, 131, 123;
   --fk-link: #238179;
   --fk-link-hover: #205ea6;
   --fk-accent-soft: #ddf1e4;
@@ -901,7 +876,6 @@ body {
   --fk-code: #1c1b1a;
   --fk-accent: #3aa99f;
   --fk-accent-hover: #4385be;
-  --fk-accent-rgb: 58, 169, 159;
   --fk-link: #3aa99f;
   --fk-link-hover: #4385be;
   --fk-accent-soft: rgba(58, 169, 159, 0.16);
@@ -928,7 +902,6 @@ body {
   --fk-code: #f2ecdf;
   --fk-accent: #8c4f2b;
   --fk-accent-hover: #a8623a;
-  --fk-accent-rgb: 140, 79, 43;
   --fk-link: #8c4f2b;
   --fk-link-hover: #a8623a;
   --fk-accent-soft: #f1e2d3;
@@ -953,7 +926,6 @@ body {
   --fk-code: #24201c;
   --fk-accent: #d0955f;
   --fk-accent-hover: #e0aa76;
-  --fk-accent-rgb: 208, 149, 95;
   --fk-link: #d0955f;
   --fk-link-hover: #e0aa76;
   --fk-accent-soft: rgba(208, 149, 95, 0.16);
@@ -980,7 +952,6 @@ body {
   --fk-code: #f0eee6;
   --fk-accent: #b94a4a;
   --fk-accent-hover: #c75b5b;
-  --fk-accent-rgb: 236, 126, 126;
   --fk-link: #b94a4a;
   --fk-link-hover: #963939;
   --fk-accent-soft: #f9e1df;
@@ -1006,7 +977,6 @@ body {
   --fk-code: #20201f;
   --fk-accent: #db6c6c;
   --fk-accent-hover: #e37373;
-  --fk-accent-rgb: 219, 108, 108;
   --fk-link: #db6c6c;
   --fk-link-hover: #e37373;
   --fk-accent-soft: rgba(219, 108, 108, 0.16);
@@ -1034,7 +1004,6 @@ body {
   --fk-code: #f0f0f1;
   --fk-accent: #316df1;
   --fk-accent-hover: #a626a4;
-  --fk-accent-rgb: 64, 120, 242;
   --fk-link: #3068e0;
   --fk-link-hover: #a626a4;
   --fk-accent-soft: #e1eafd;
@@ -1059,7 +1028,6 @@ body {
   --fk-code: #2c313a;
   --fk-accent: #61afef;
   --fk-accent-hover: #c678dd;
-  --fk-accent-rgb: 97, 175, 239;
   --fk-link: #61afef;
   --fk-link-hover: #c678dd;
   --fk-accent-soft: rgba(97, 175, 239, 0.16);
@@ -1086,7 +1054,6 @@ body {
   --fk-code: #f0f1f2;
   --fk-accent: #b55f00;
   --fk-accent-hover: #399ee6;
-  --fk-accent-rgb: 255, 153, 64;
   --fk-link: #1e79bb;
   --fk-link-hover: #c96a00;
   --fk-accent-soft: #fdebd9;
@@ -1111,7 +1078,6 @@ body {
   --fk-code: #1f2430;
   --fk-accent: #ffcc66;
   --fk-accent-hover: #ffd580;
-  --fk-accent-rgb: 255, 204, 102;
   --fk-link: #73d0ff;
   --fk-link-hover: #ffcc66;
   --fk-accent-soft: rgba(255, 204, 102, 0.16);
@@ -1138,7 +1104,6 @@ body {
   --fk-code: #e7dba0;
   --fk-accent: #4d699b;
   --fk-accent-hover: #624c83;
-  --fk-accent-rgb: 77, 105, 155;
   --fk-link: #4d699b;
   --fk-link-hover: #624c83;
   --fk-accent-soft: #dcdcc0;
@@ -1163,7 +1128,6 @@ body {
   --fk-code: #2a2a37;
   --fk-accent: #7e9cd8;
   --fk-accent-hover: #957fb8;
-  --fk-accent-rgb: 126, 156, 216;
   --fk-link: #7e9cd8;
   --fk-link-hover: #957fb8;
   --fk-accent-soft: rgba(126, 156, 216, 0.16);
@@ -1261,16 +1225,28 @@ body {
   --background-modifier-hover: rgba(255, 255, 255, 0.04);
   --background-modifier-active-hover: rgba(255, 255, 255, 0.07);
   --background-modifier-form-field: rgba(255, 255, 255, 0.08);
-  --text-selection: rgba(var(--fk-accent-rgb), 0.3);
+  --text-selection: color-mix(in srgb, var(--fk-accent) 30%, transparent);
   --text-highlight-bg: rgba(245, 170, 30, 0.25);
   --interactive-normal: rgba(255, 255, 255, 0.05);
   --interactive-hover: rgba(255, 255, 255, 0.08);
-  --tag-background-hover: rgba(var(--fk-accent-rgb), 0.3);
+  --tag-background-hover: color-mix(in srgb, var(--fk-accent) 30%, transparent);
   --nav-item-background-hover: rgba(255, 255, 255, 0.04);
   --nav-item-background-active: rgba(255, 255, 255, 0.04);
   --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
   --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.18);
   --shadow-l: 0 8px 28px rgba(0, 0, 0, 0.5);
+}
+
+/* Custom accent: Settings → Appearance → Accent color (Obsidian sets inline --accent-h/s/l) */
+body.theme-light[style*="--accent-h"],
+body.theme-dark[style*="--accent-h"] {
+  --fk-accent: var(--color-accent);
+  --fk-accent-hover: var(--color-accent-1);
+  --fk-link: var(--color-accent);
+  --fk-link-hover: var(--color-accent-1);
+  --fk-accent-soft: hsla(var(--accent-h), var(--accent-s), var(--accent-l), 0.16);
+  --fk-accent-soft-text: var(--color-accent);
+  --fk-quote: hsla(var(--accent-h), var(--accent-s), var(--accent-l), 0.4);
 }
 
 /* ---- Editor corner ---------------------------------------- */
@@ -1475,7 +1451,7 @@ button {
 input[type='text']:focus,
 input[type='search']:focus,
 textarea:focus {
-  box-shadow: 0 0 0 3px rgba(var(--fk-accent-rgb), 0.22);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--fk-accent) 22%, transparent);
 }
 
 /* Menus */
