@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.6.0
+   Fokus — v1.6.1
    Borderless, 13 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -74,7 +74,7 @@ settings:
     -
         id: fk-corner
         title: Corner radius
-        description: Editor corner beside the ribbon or left sidebar (px).
+        description: Editor corners beside the ribbon and sidebars (px).
         type: variable-number-slider
         default: 25
         min: 0
@@ -1004,6 +1004,10 @@ body.show-ribbon:not(.fokus-collapsed) .workspace-split.mod-root > .workspace-sp
 body:not(.fokus-collapsed) .workspace.is-left-sidedock-open .workspace-split.mod-root > .workspace-tabs:nth-child(1 of .workspace-tabs, .workspace-split) .workspace-leaf,
 body:not(.fokus-collapsed) .workspace.is-left-sidedock-open .workspace-split.mod-root > .workspace-split:nth-child(1 of .workspace-tabs, .workspace-split) > .workspace-tabs:nth-child(1 of .workspace-tabs, .workspace-split) .workspace-leaf {
   border-top-left-radius: var(--fk-corner);
+}
+body:not(.fokus-collapsed) .workspace.is-right-sidedock-open .workspace-split.mod-root > .workspace-tabs:nth-last-child(1 of .workspace-tabs, .workspace-split) .workspace-leaf,
+body:not(.fokus-collapsed) .workspace.is-right-sidedock-open .workspace-split.mod-root > .workspace-split:nth-last-child(1 of .workspace-tabs, .workspace-split) > .workspace-tabs:nth-child(1 of .workspace-tabs, .workspace-split) .workspace-leaf {
+  border-top-right-radius: var(--fk-corner);
 }
 
 /* ---- Tab bar ---------------------------------------------- */
