@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.9.1
+   Fokus — v1.9.2
    Borderless, 18 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -44,9 +44,6 @@ settings:
                 label: Gruvbox
                 value: fokus-scheme-gruvbox
             -
-                label: Indigo
-                value: fokus-scheme-indigo
-            -
                 label: Kanagawa
                 value: fokus-scheme-kanagawa
             -
@@ -59,6 +56,9 @@ settings:
                 label: Paper
                 value: fokus-scheme-paper
             -
+                label: Reflect
+                value: fokus-scheme-reflect
+            -
                 label: Rosé Pine
                 value: fokus-scheme-rose-pine
             -
@@ -68,8 +68,8 @@ settings:
                 label: Tokyo Night
                 value: fokus-scheme-tokyo-night
             -
-                label: Violet
-                value: fokus-scheme-violet
+                label: Violentz
+                value: fokus-scheme-violentz
     -
         id: fokus-amoled
         title: AMOLED black
@@ -286,8 +286,8 @@ body {
   --fk-on-accent: #141413;
 }
 
-/* ---- Indigo ----------------------------------------------- */
-.theme-light.fokus-scheme-indigo {
+/* ---- Reflect ---------------------------------------------- */
+.theme-light.fokus-scheme-reflect {
   --accent-h: 243;
   --accent-s: 75%;
   --accent-l: 59%;
@@ -312,7 +312,7 @@ body {
   --fk-quote: #c7d2fe;
   --fk-on-accent: #ffffff;
 }
-.theme-dark.fokus-scheme-indigo {
+.theme-dark.fokus-scheme-reflect {
   --accent-h: 239;
   --accent-s: 84%;
   --accent-l: 67%;
@@ -338,8 +338,8 @@ body {
   --fk-on-accent: #ffffff;
 }
 
-/* ---- Violet ----------------------------------------------- */
-.theme-light.fokus-scheme-violet {
+/* ---- Violentz --------------------------------------------- */
+.theme-light.fokus-scheme-violentz {
   --accent-h: 249;
   --accent-s: 76%;
   --accent-l: 63%;
@@ -364,7 +364,7 @@ body {
   --fk-quote: #d4ccff;
   --fk-on-accent: #ffffff;
 }
-.theme-dark.fokus-scheme-violet {
+.theme-dark.fokus-scheme-violentz {
   --accent-h: 249;
   --accent-s: 89%;
   --accent-l: 72%;
