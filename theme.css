@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.3.2
+   Fokus — v1.4.0
    Borderless, 13 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -1035,6 +1035,14 @@ body.fokus-collapsed.fokus-hide-tabs.fokus-hide-header .fokus-drag-strip {
 }
 body.is-frameless > .app-container ~ .fokus-drag-strip {
   -webkit-app-region: drag;
+}
+
+/* Ribbon: hidden in CSS; the "Show ribbon" setting is never changed */
+body.fokus-collapsed.fokus-hide-ribbon {
+  --ribbon-width: 0px;
+}
+body.fokus-collapsed.fokus-hide-ribbon .workspace-ribbon.mod-left {
+  display: none;
 }
 
 /* Folded rows */
