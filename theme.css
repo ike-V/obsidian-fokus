@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.10.3
+   Fokus — v1.10.4
    Borderless, 18 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -1151,7 +1151,6 @@ body {
 /* ---- Mapping ---------------------------------------------- */
 .theme-light,
 .theme-dark {
-  --text-selection: Highlight;
   --background-primary: var(--fk-bg);
   --background-primary-alt: var(--fk-bg-alt);
   --background-secondary: var(--fk-chrome);
@@ -1220,7 +1219,6 @@ body {
   --scrollbar-active-thumb-bg: rgba(15, 14, 23, 0.2);
 }
 .theme-dark {
-  --text-selection: #365373;
   --fk-tab-active: rgba(255, 255, 255, 0.06);
   --fk-palette-shadow: 0 16px 48px rgb(0 0 0 / 55%);
   --background-modifier-hover: rgba(255, 255, 255, 0.04);
