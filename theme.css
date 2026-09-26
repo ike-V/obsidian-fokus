@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.5.3
+   Fokus — v1.6.0
    Borderless, 13 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -71,6 +71,16 @@ settings:
         max: 100
         step: 5
         format: vw
+    -
+        id: fk-corner
+        title: Corner radius
+        description: Editor corner beside the ribbon or left sidebar (px).
+        type: variable-number-slider
+        default: 25
+        min: 0
+        max: 40
+        step: 1
+        format: px
     -
         id: fokus-colored-headings
         title: Colored headings
@@ -194,6 +204,7 @@ body {
   --tab-background-active: transparent;
 
   --scrollbar-width: 8px;
+  --fk-corner: 25px;
   --nav-item-radius: var(--radius-m);
   --tab-font-weight: 500;
   --file-header-font-weight: 500;
@@ -982,6 +993,17 @@ body {
   --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
   --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.18);
   --shadow-l: 0 8px 28px rgba(0, 0, 0, 0.5);
+}
+
+/* ---- Editor corner ---------------------------------------- */
+.workspace-split.mod-root {
+  background-color: var(--fk-chrome);
+}
+body.show-ribbon:not(.fokus-collapsed) .workspace-split.mod-root > .workspace-tabs:nth-child(1 of .workspace-tabs, .workspace-split) .workspace-leaf,
+body.show-ribbon:not(.fokus-collapsed) .workspace-split.mod-root > .workspace-split:nth-child(1 of .workspace-tabs, .workspace-split) > .workspace-tabs:nth-child(1 of .workspace-tabs, .workspace-split) .workspace-leaf,
+body:not(.fokus-collapsed) .workspace.is-left-sidedock-open .workspace-split.mod-root > .workspace-tabs:nth-child(1 of .workspace-tabs, .workspace-split) .workspace-leaf,
+body:not(.fokus-collapsed) .workspace.is-left-sidedock-open .workspace-split.mod-root > .workspace-split:nth-child(1 of .workspace-tabs, .workspace-split) > .workspace-tabs:nth-child(1 of .workspace-tabs, .workspace-split) .workspace-leaf {
+  border-top-left-radius: var(--fk-corner);
 }
 
 /* ---- Tab bar ---------------------------------------------- */
