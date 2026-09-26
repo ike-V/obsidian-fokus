@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.9.2
+   Fokus — v1.9.3
    Borderless, 18 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -44,6 +44,9 @@ settings:
                 label: Gruvbox
                 value: fokus-scheme-gruvbox
             -
+                label: Indigo
+                value: fokus-scheme-indigo
+            -
                 label: Kanagawa
                 value: fokus-scheme-kanagawa
             -
@@ -55,9 +58,6 @@ settings:
             -
                 label: Paper
                 value: fokus-scheme-paper
-            -
-                label: Reflect
-                value: fokus-scheme-reflect
             -
                 label: Rosé Pine
                 value: fokus-scheme-rose-pine
@@ -286,8 +286,8 @@ body {
   --fk-on-accent: #141413;
 }
 
-/* ---- Reflect ---------------------------------------------- */
-.theme-light.fokus-scheme-reflect {
+/* ---- Indigo ----------------------------------------------- */
+.theme-light.fokus-scheme-indigo {
   --accent-h: 243;
   --accent-s: 75%;
   --accent-l: 59%;
@@ -312,7 +312,7 @@ body {
   --fk-quote: #c7d2fe;
   --fk-on-accent: #ffffff;
 }
-.theme-dark.fokus-scheme-reflect {
+.theme-dark.fokus-scheme-indigo {
   --accent-h: 239;
   --accent-s: 84%;
   --accent-l: 67%;
