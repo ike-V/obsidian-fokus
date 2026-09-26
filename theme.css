@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.3.1
+   Fokus — v1.3.2
    Borderless, 13 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -944,6 +944,7 @@ body {
   --ribbon-background: var(--fk-chrome);
   --ribbon-background-collapsed: var(--fk-chrome);
   --modal-background: var(--fk-float);
+  --graph-line: var(--fk-line-strong);
   --menu-background: var(--fk-float);
   --prompt-background: var(--fk-float);
   --menu-shadow: var(--shadow-l);
