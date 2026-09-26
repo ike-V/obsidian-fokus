@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.10.7
+   Fokus — v1.10.8
    Borderless, 18 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -237,8 +237,8 @@ body {
 /* ---- Default: Fokus ----------------------------- */
 .theme-light {
   --accent-h: 0;
-  --accent-s: 43%;
-  --accent-l: 51%;
+  --accent-s: 44.2%;
+  --accent-l: 50.8%;
   --fk-bg: #faf9f5;
   --fk-bg-alt: #f5f4ee;
   --fk-chrome: #f0eee6;
@@ -261,8 +261,8 @@ body {
 }
 .theme-dark {
   --accent-h: 0;
-  --accent-s: 37%;
-  --accent-l: 49%;
+  --accent-s: 37.1%;
+  --accent-l: 49.2%;
   --fk-bg: #151515;
   --fk-bg-alt: #1a1a19;
   --fk-chrome: #111111;
@@ -286,9 +286,9 @@ body {
 
 /* ---- Placidity -------------------------------------------- */
 .theme-light.fokus-scheme-placidity {
-  --accent-h: 243;
-  --accent-s: 75%;
-  --accent-l: 59%;
+  --accent-h: 243.4;
+  --accent-s: 75.4%;
+  --accent-l: 58.6%;
   --fk-bg: #ffffff;
   --fk-bg-alt: #f9fafb;
   --fk-chrome: #f3f4f6;
@@ -310,9 +310,9 @@ body {
   --fk-on-accent: #ffffff;
 }
 .theme-dark.fokus-scheme-placidity {
-  --accent-h: 239;
-  --accent-s: 84%;
-  --accent-l: 67%;
+  --accent-h: 238.8;
+  --accent-s: 83.7%;
+  --accent-l: 66.3%;
   --fk-bg: #0b1020;
   --fk-bg-alt: #111829;
   --fk-chrome: #101726;
@@ -336,9 +336,9 @@ body {
 
 /* ---- Violentz --------------------------------------------- */
 .theme-light.fokus-scheme-violentz {
-  --accent-h: 249;
-  --accent-s: 76%;
-  --accent-l: 63%;
+  --accent-h: 249.6;
+  --accent-s: 75.8%;
+  --accent-l: 62.7%;
   --fk-bg: #ffffff;
   --fk-bg-alt: #f8f8fb;
   --fk-chrome: #f1f1f6;
@@ -361,7 +361,7 @@ body {
 }
 .theme-dark.fokus-scheme-violentz {
   --accent-h: 249;
-  --accent-s: 89%;
+  --accent-s: 88.8%;
   --accent-l: 72%;
   --fk-bg: #100f16;
   --fk-bg-alt: #16151d;
@@ -387,8 +387,8 @@ body {
 /* ---- Nord ------------------------------------------------- */
 .theme-light.fokus-scheme-nord {
   --accent-h: 213;
-  --accent-s: 32%;
-  --accent-l: 52%;
+  --accent-s: 32.3%;
+  --accent-l: 48.6%;
   --fk-bg: #eceff4;
   --fk-bg-alt: #e5e9f0;
   --fk-chrome: #e5e9f0;
@@ -410,9 +410,9 @@ body {
   --fk-on-accent: #ffffff;
 }
 .theme-dark.fokus-scheme-nord {
-  --accent-h: 193;
-  --accent-s: 43%;
-  --accent-l: 67%;
+  --accent-h: 193.3;
+  --accent-s: 43.4%;
+  --accent-l: 67.5%;
   --fk-bg: #2e3440;
   --fk-bg-alt: #353c4a;
   --fk-chrome: #3b4252;
@@ -460,8 +460,8 @@ body {
   --fk-on-accent: #ffffff;
 }
 .theme-dark.fokus-scheme-catppuccin {
-  --accent-h: 267;
-  --accent-s: 84%;
+  --accent-h: 267.4;
+  --accent-s: 83.5%;
   --accent-l: 81%;
   --fk-bg: #181825;
   --fk-bg-alt: #1e1e2e;
@@ -486,9 +486,9 @@ body {
 
 /* ---- Gruvbox ---------------------------------------------- */
 .theme-light.fokus-scheme-gruvbox {
-  --accent-h: 24;
-  --accent-s: 88%;
-  --accent-l: 45%;
+  --accent-h: 23.7;
+  --accent-s: 87.5%;
+  --accent-l: 40.8%;
   --fk-bg: #fbf1c7;
   --fk-bg-alt: #f2e5bc;
   --fk-chrome: #f2e5bc;
@@ -511,8 +511,8 @@ body {
 }
 .theme-dark.fokus-scheme-gruvbox {
   --accent-h: 27;
-  --accent-s: 99%;
-  --accent-l: 55%;
+  --accent-s: 99.1%;
+  --accent-l: 54.7%;
   --fk-bg: #282828;
   --fk-bg-alt: #32302f;
   --fk-chrome: #32302f;
@@ -536,9 +536,9 @@ body {
 
 /* ---- Rosé Pine (Dawn / Main) ------------------------------ */
 .theme-light.fokus-scheme-rose-pine {
-  --accent-h: 268;
-  --accent-s: 21%;
-  --accent-l: 57%;
+  --accent-h: 267.7;
+  --accent-s: 21.5%;
+  --accent-l: 52.5%;
   --fk-bg: #fffaf3;
   --fk-bg-alt: #faf4ed;
   --fk-chrome: #f2e9e1;
@@ -560,8 +560,8 @@ body {
   --fk-on-accent: #ffffff;
 }
 .theme-dark.fokus-scheme-rose-pine {
-  --accent-h: 267;
-  --accent-s: 57%;
+  --accent-h: 267.2;
+  --accent-s: 57.1%;
   --accent-l: 78%;
   --fk-bg: #191724;
   --fk-bg-alt: #1f1d2e;
@@ -586,9 +586,9 @@ body {
 
 /* ---- Tokyo Night (Day / Night) ---------------------------- */
 .theme-light.fokus-scheme-tokyo-night {
-  --accent-h: 215;
-  --accent-s: 81%;
-  --accent-l: 55%;
+  --accent-h: 214.6;
+  --accent-s: 80.7%;
+  --accent-l: 51.2%;
   --fk-bg: #e9e9ed;
   --fk-bg-alt: #e1e2e7;
   --fk-chrome: #d5d6db;
@@ -610,9 +610,9 @@ body {
   --fk-on-accent: #ffffff;
 }
 .theme-dark.fokus-scheme-tokyo-night {
-  --accent-h: 221;
-  --accent-s: 89%;
-  --accent-l: 72%;
+  --accent-h: 220.8;
+  --accent-s: 88.7%;
+  --accent-l: 72.4%;
   --fk-bg: #1a1b26;
   --fk-bg-alt: #1f2335;
   --fk-chrome: #1f2335;
@@ -636,9 +636,9 @@ body {
 
 /* ---- Dracula (Alucard / Dracula) -------------------------- */
 .theme-light.fokus-scheme-dracula {
-  --accent-h: 252;
-  --accent-s: 55%;
-  --accent-l: 54%;
+  --accent-h: 252.3;
+  --accent-s: 54%;
+  --accent-l: 53.9%;
   --fk-bg: #fffbeb;
   --fk-bg-alt: #f7f2dd;
   --fk-chrome: #efe9d2;
@@ -660,9 +660,9 @@ body {
   --fk-on-accent: #ffffff;
 }
 .theme-dark.fokus-scheme-dracula {
-  --accent-h: 265;
-  --accent-s: 89%;
-  --accent-l: 78%;
+  --accent-h: 264.7;
+  --accent-s: 89.5%;
+  --accent-l: 77.6%;
   --fk-bg: #282a36;
   --fk-bg-alt: #2e3040;
   --fk-chrome: #303241;
@@ -686,9 +686,9 @@ body {
 
 /* ---- Solarized -------------------------------------------- */
 .theme-light.fokus-scheme-solarized {
-  --accent-h: 205;
-  --accent-s: 69%;
-  --accent-l: 49%;
+  --accent-h: 204.9;
+  --accent-s: 69.1%;
+  --accent-l: 43.1%;
   --fk-bg: #fdf6e3;
   --fk-bg-alt: #f5efdc;
   --fk-chrome: #eee8d5;
@@ -710,9 +710,9 @@ body {
   --fk-on-accent: #ffffff;
 }
 .theme-dark.fokus-scheme-solarized {
-  --accent-h: 205;
-  --accent-s: 69%;
-  --accent-l: 49%;
+  --accent-h: 204.7;
+  --accent-s: 69.7%;
+  --accent-l: 52.2%;
   --fk-bg: #002b36;
   --fk-bg-alt: #04313d;
   --fk-chrome: #073642;
@@ -736,9 +736,9 @@ body {
 
 /* ---- Everforest ------------------------------------------- */
 .theme-light.fokus-scheme-everforest {
-  --accent-h: 67;
-  --accent-s: 99%;
-  --accent-l: 32%;
+  --accent-h: 67.7;
+  --accent-s: 98.4%;
+  --accent-l: 24.9%;
   --fk-bg: #fdf6e3;
   --fk-bg-alt: #f4f0d9;
   --fk-chrome: #efebd4;
@@ -760,9 +760,9 @@ body {
   --fk-on-accent: #ffffff;
 }
 .theme-dark.fokus-scheme-everforest {
-  --accent-h: 83;
-  --accent-s: 33%;
-  --accent-l: 63%;
+  --accent-h: 83.4;
+  --accent-s: 33.7%;
+  --accent-l: 62.7%;
   --fk-bg: #2d353b;
   --fk-bg-alt: #333c43;
   --fk-chrome: #343f44;
@@ -786,9 +786,9 @@ body {
 
 /* ---- Primer ----------------------------------------------- */
 .theme-light.fokus-scheme-primer {
-  --accent-h: 212;
-  --accent-s: 92%;
-  --accent-l: 45%;
+  --accent-h: 212.4;
+  --accent-s: 92.1%;
+  --accent-l: 44.5%;
   --fk-bg: #ffffff;
   --fk-bg-alt: #f6f8fa;
   --fk-chrome: #f6f8fa;
@@ -810,8 +810,8 @@ body {
   --fk-on-accent: #ffffff;
 }
 .theme-dark.fokus-scheme-primer {
-  --accent-h: 214;
-  --accent-s: 93%;
+  --accent-h: 213.7;
+  --accent-s: 92.8%;
   --accent-l: 62%;
   --fk-bg: #0d1117;
   --fk-bg-alt: #151b23;
@@ -836,9 +836,9 @@ body {
 
 /* ---- Flexoki ---------------------------------------------- */
 .theme-light.fokus-scheme-flexoki {
-  --accent-h: 175;
-  --accent-s: 57%;
-  --accent-l: 33%;
+  --accent-h: 174.9;
+  --accent-s: 56.9%;
+  --accent-l: 32.7%;
   --fk-bg: #fffcf0;
   --fk-bg-alt: #f2f0e5;
   --fk-chrome: #f2f0e5;
@@ -860,9 +860,9 @@ body {
   --fk-on-accent: #ffffff;
 }
 .theme-dark.fokus-scheme-flexoki {
-  --accent-h: 175;
-  --accent-s: 49%;
-  --accent-l: 45%;
+  --accent-h: 174.6;
+  --accent-s: 48.9%;
+  --accent-l: 44.5%;
   --fk-bg: #100f0f;
   --fk-bg-alt: #1c1b1a;
   --fk-chrome: #1c1b1a;
@@ -886,9 +886,9 @@ body {
 
 /* ---- Paper ------------------------------------------------ */
 .theme-light.fokus-scheme-paper {
-  --accent-h: 24;
-  --accent-s: 52%;
-  --accent-l: 36%;
+  --accent-h: 22.3;
+  --accent-s: 53%;
+  --accent-l: 35.9%;
   --fk-bg: #fbf8f1;
   --fk-bg-alt: #f4efe3;
   --fk-chrome: #f1ebdd;
@@ -910,9 +910,9 @@ body {
   --fk-on-accent: #ffffff;
 }
 .theme-dark.fokus-scheme-paper {
-  --accent-h: 28;
-  --accent-s: 55%;
-  --accent-l: 60%;
+  --accent-h: 28.7;
+  --accent-s: 54.6%;
+  --accent-l: 59.4%;
   --fk-bg: #1c1916;
   --fk-bg-alt: #221e1a;
   --fk-chrome: #24201c;
@@ -937,8 +937,8 @@ body {
 /* ---- Fokus (muted) ------------------------------------ */
 .theme-light.fokus-scheme-fokus-muted {
   --accent-h: 0;
-  --accent-s: 43%;
-  --accent-l: 51%;
+  --accent-s: 44.2%;
+  --accent-l: 50.8%;
   --fk-bg: #faf9f5;
   --fk-bg-alt: #f5f4ee;
   --fk-chrome: #f0eee6;
@@ -962,8 +962,8 @@ body {
 }
 .theme-dark.fokus-scheme-fokus-muted {
   --accent-h: 0;
-  --accent-s: 37%;
-  --accent-l: 49%;
+  --accent-s: 37.1%;
+  --accent-l: 49.2%;
   --fk-bg: #151515;
   --fk-bg-alt: #1a1a19;
   --fk-chrome: #111111;
@@ -988,9 +988,9 @@ body {
 
 /* ---- One ------------------------------------------------- */
 .theme-light.fokus-scheme-one {
-  --accent-h: 221;
-  --accent-s: 87%;
-  --accent-l: 60%;
+  --accent-h: 221.2;
+  --accent-s: 87.3%;
+  --accent-l: 56.9%;
   --fk-bg: #fafafa;
   --fk-bg-alt: #f2f2f2;
   --fk-chrome: #f0f0f1;
@@ -1013,8 +1013,8 @@ body {
 }
 .theme-dark.fokus-scheme-one {
   --accent-h: 207;
-  --accent-s: 82%;
-  --accent-l: 66%;
+  --accent-s: 81.6%;
+  --accent-l: 65.9%;
   --fk-bg: #282c34;
   --fk-bg-alt: #2c313a;
   --fk-chrome: #21252b;
@@ -1038,9 +1038,9 @@ body {
 
 /* ---- Ayu ------------------------------------------------- */
 .theme-light.fokus-scheme-ayu {
-  --accent-h: 28;
+  --accent-h: 31.5;
   --accent-s: 100%;
-  --accent-l: 63%;
+  --accent-l: 35.5%;
   --fk-bg: #fcfcfc;
   --fk-bg-alt: #f5f6f7;
   --fk-chrome: #f3f4f5;
@@ -1088,9 +1088,9 @@ body {
 
 /* ---- Kanagawa -------------------------------------------- */
 .theme-light.fokus-scheme-kanagawa {
-  --accent-h: 219;
-  --accent-s: 34%;
-  --accent-l: 45%;
+  --accent-h: 218.5;
+  --accent-s: 33.6%;
+  --accent-l: 45.5%;
   --fk-bg: #f2ecbc;
   --fk-bg-alt: #e7dba0;
   --fk-chrome: #e5ddb0;
@@ -1112,9 +1112,9 @@ body {
   --fk-on-accent: #ffffff;
 }
 .theme-dark.fokus-scheme-kanagawa {
-  --accent-h: 221;
-  --accent-s: 50%;
-  --accent-l: 67%;
+  --accent-h: 220;
+  --accent-s: 53.6%;
+  --accent-l: 67.1%;
   --fk-bg: #1f1f28;
   --fk-bg-alt: #2a2a37;
   --fk-chrome: #16161d;
