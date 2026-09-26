@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.8.0
+   Fokus — v1.8.1
    Borderless, 18 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -972,9 +972,9 @@ body {
   --fk-chrome: #f0eee6;
   --fk-chrome-alt: #e8e6dc;
   --fk-float: #ffffff;
-  --fk-text: #6c6a65;
-  --fk-muted: #6e6c67;
-  --fk-faint: #93908b;
+  --fk-text: #141413;
+  --fk-muted: #5e5d59;
+  --fk-faint: #8f8d86;
   --fk-line: #e8e6dc;
   --fk-line-strong: #d6d3c7;
   --fk-code: #f0eee6;
@@ -987,6 +987,7 @@ body {
   --fk-accent-soft-text: #9e3c3c;
   --fk-quote: #efc3c0;
   --fk-on-accent: #ffffff;
+  --fk-note-text: #6c6a65;
 }
 .theme-dark.fokus-scheme-claude-muted {
   --accent-h: 0;
@@ -997,9 +998,9 @@ body {
   --fk-chrome: #111111;
   --fk-chrome-alt: #1a1a19;
   --fk-float: #20201f;
-  --fk-text: #898781;
-  --fk-muted: #817f79;
-  --fk-faint: #64635e;
+  --fk-text: #e6e5e2;
+  --fk-muted: #a3a19b;
+  --fk-faint: #898781;
   --fk-line: #313130;
   --fk-line-strong: #3b3b3a;
   --fk-code: #20201f;
@@ -1012,6 +1013,7 @@ body {
   --fk-accent-soft-text: #ec7e7e;
   --fk-quote: #5a3434;
   --fk-on-accent: #141413;
+  --fk-note-text: #898781;
 }
 
 /* ---- One ------------------------------------------------- */
@@ -1284,6 +1286,12 @@ body:not(.fokus-collapsed) .workspace.is-left-sidedock-open .workspace-split.mod
 body:not(.fokus-collapsed) .workspace.is-right-sidedock-open .workspace-split.mod-root > .workspace-tabs:nth-last-child(1 of .workspace-tabs, .workspace-split) .workspace-leaf,
 body:not(.fokus-collapsed) .workspace.is-right-sidedock-open .workspace-split.mod-root > .workspace-split:nth-last-child(1 of .workspace-tabs, .workspace-split) > .workspace-tabs:nth-child(1 of .workspace-tabs, .workspace-split) .workspace-leaf {
   border-top-right-radius: var(--fk-corner);
+}
+
+/* Note text: schemes may set --fk-note-text to recolor text inside notes only */
+.markdown-source-view,
+.markdown-preview-view {
+  --text-normal: var(--fk-note-text, var(--fk-text));
 }
 
 /* ---- Tab bar ---------------------------------------------- */
