@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.10.5
+   Fokus — v1.10.6
    Borderless, 18 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -1380,8 +1380,8 @@ body.fokus-collapsed.fokus-hide-tabs:not(.fokus-hide-header) .mod-root :is(.view
   -webkit-app-region: no-drag;
 }
 
-/* ---- Text colors ------------------------------------------ */
-body.fokus-colored-headings {
+/* ---- Text colors (notes only) ------------------------------------------ */
+body.fokus-colored-headings :is(.markdown-source-view, .markdown-preview-view) {
   --h1-color: var(--color-red);
   --h2-color: var(--color-orange);
   --h3-color: var(--color-yellow);
@@ -1389,7 +1389,7 @@ body.fokus-colored-headings {
   --h5-color: var(--color-blue);
   --h6-color: var(--color-purple);
 }
-body.fokus-colored-emphasis {
+body.fokus-colored-emphasis :is(.markdown-source-view, .markdown-preview-view) {
   --bold-color: var(--color-red);
   --italic-color: var(--color-orange);
 }
