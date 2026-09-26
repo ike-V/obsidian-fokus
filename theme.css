@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.7.0
+   Fokus — v1.7.1
    Borderless, 17 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -17,56 +17,56 @@ settings:
         default: fokus-scheme-indigo
         options:
             -
-                label: Indigo
-                value: fokus-scheme-indigo
-            -
-                label: Violet
-                value: fokus-scheme-violet
-            -
-                label: Nord
-                value: fokus-scheme-nord
+                label: Ayu
+                value: fokus-scheme-ayu
             -
                 label: Catppuccin
                 value: fokus-scheme-catppuccin
             -
-                label: Gruvbox
-                value: fokus-scheme-gruvbox
-            -
-                label: Rosé Pine
-                value: fokus-scheme-rose-pine
-            -
-                label: Tokyo Night
-                value: fokus-scheme-tokyo-night
+                label: Claude Desktop
+                value: fokus-scheme-claude-desktop
             -
                 label: Dracula
                 value: fokus-scheme-dracula
             -
-                label: Solarized
-                value: fokus-scheme-solarized
-            -
                 label: Everforest
                 value: fokus-scheme-everforest
-            -
-                label: GitHub
-                value: fokus-scheme-github
             -
                 label: Flexoki
                 value: fokus-scheme-flexoki
             -
-                label: Paper
-                value: fokus-scheme-paper
+                label: GitHub
+                value: fokus-scheme-github
             -
-                label: Claude
-                value: fokus-scheme-claude
+                label: Gruvbox
+                value: fokus-scheme-gruvbox
+            -
+                label: Indigo
+                value: fokus-scheme-indigo
+            -
+                label: Kanagawa
+                value: fokus-scheme-kanagawa
+            -
+                label: Nord
+                value: fokus-scheme-nord
             -
                 label: One
                 value: fokus-scheme-one
             -
-                label: Ayu
-                value: fokus-scheme-ayu
+                label: Paper
+                value: fokus-scheme-paper
             -
-                label: Kanagawa
-                value: fokus-scheme-kanagawa
+                label: Rosé Pine
+                value: fokus-scheme-rose-pine
+            -
+                label: Solarized
+                value: fokus-scheme-solarized
+            -
+                label: Tokyo Night
+                value: fokus-scheme-tokyo-night
+            -
+                label: Violet
+                value: fokus-scheme-violet
     -
         id: fokus-amoled
         title: AMOLED black
@@ -907,11 +907,11 @@ body {
   --fk-on-accent: #1c1916;
 }
 
-/* ---- Claude ---------------------------------------------- */
-.theme-light.fokus-scheme-claude {
-  --accent-h: 15;
-  --accent-s: 55%;
-  --accent-l: 50%;
+/* ---- Claude Desktop ---------------------------------------------- */
+.theme-light.fokus-scheme-claude-desktop {
+  --accent-h: 0;
+  --accent-s: 43%;
+  --accent-l: 51%;
   --fk-bg: #faf9f5;
   --fk-bg-alt: #f5f4ee;
   --fk-chrome: #f0eee6;
@@ -923,20 +923,20 @@ body {
   --fk-line: #e8e6dc;
   --fk-line-strong: #d6d3c7;
   --fk-code: #f0eee6;
-  --fk-accent: #c96442;
-  --fk-accent-hover: #b3553a;
-  --fk-accent-rgb: 201, 100, 66;
-  --fk-link: #b85635;
-  --fk-link-hover: #a14a2f;
-  --fk-accent-soft: #f5e6dc;
-  --fk-accent-soft-text: #9a4529;
-  --fk-quote: #e8c9b8;
-  --fk-on-accent: #141413;
+  --fk-accent: #b94a4a;
+  --fk-accent-hover: #c75b5b;
+  --fk-accent-rgb: 236, 126, 126;
+  --fk-link: #b94a4a;
+  --fk-link-hover: #963939;
+  --fk-accent-soft: #f9e1df;
+  --fk-accent-soft-text: #9e3c3c;
+  --fk-quote: #efc3c0;
+  --fk-on-accent: #ffffff;
 }
-.theme-dark.fokus-scheme-claude {
-  --accent-h: 15;
-  --accent-s: 63%;
-  --accent-l: 60%;
+.theme-dark.fokus-scheme-claude-desktop {
+  --accent-h: 0;
+  --accent-s: 75%;
+  --accent-l: 71%;
   --fk-bg: #151515;
   --fk-bg-alt: #1a1a19;
   --fk-chrome: #111111;
@@ -948,14 +948,14 @@ body {
   --fk-line: #313130;
   --fk-line-strong: #3b3b3a;
   --fk-code: #20201f;
-  --fk-accent: #d97757;
-  --fk-accent-hover: #e38b6d;
-  --fk-accent-rgb: 217, 119, 87;
-  --fk-link: #e0896b;
-  --fk-link-hover: #ecac93;
-  --fk-accent-soft: rgba(217, 119, 87, 0.16);
-  --fk-accent-soft-text: #e89a7e;
-  --fk-quote: #5a3a2e;
+  --fk-accent: #ec7e7e;
+  --fk-accent-hover: #f1a2a2;
+  --fk-accent-rgb: 236, 126, 126;
+  --fk-link: #ec7e7e;
+  --fk-link-hover: #f1a2a2;
+  --fk-accent-soft: rgba(236, 126, 126, 0.16);
+  --fk-accent-soft-text: #ec7e7e;
+  --fk-quote: #5a3434;
   --fk-on-accent: #141413;
 }
 
