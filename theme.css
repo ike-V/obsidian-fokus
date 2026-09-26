@@ -1,6 +1,6 @@
 /* ============================================================
-   Fokus — v1.7.1
-   Borderless, 17 color schemes + AMOLED. Focus window via the
+   Fokus — v1.8.0
+   Borderless, 18 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
 
@@ -22,6 +22,9 @@ settings:
             -
                 label: Catppuccin
                 value: fokus-scheme-catppuccin
+            -
+                label: Claude (muted)
+                value: fokus-scheme-claude-muted
             -
                 label: Claude Desktop
                 value: fokus-scheme-claude-desktop
@@ -945,6 +948,58 @@ body {
   --fk-text: #e6e5e2;
   --fk-muted: #a3a19b;
   --fk-faint: #898781;
+  --fk-line: #313130;
+  --fk-line-strong: #3b3b3a;
+  --fk-code: #20201f;
+  --fk-accent: #ec7e7e;
+  --fk-accent-hover: #f1a2a2;
+  --fk-accent-rgb: 236, 126, 126;
+  --fk-link: #ec7e7e;
+  --fk-link-hover: #f1a2a2;
+  --fk-accent-soft: rgba(236, 126, 126, 0.16);
+  --fk-accent-soft-text: #ec7e7e;
+  --fk-quote: #5a3434;
+  --fk-on-accent: #141413;
+}
+
+/* ---- Claude (muted) ------------------------------------ */
+.theme-light.fokus-scheme-claude-muted {
+  --accent-h: 0;
+  --accent-s: 43%;
+  --accent-l: 51%;
+  --fk-bg: #faf9f5;
+  --fk-bg-alt: #f5f4ee;
+  --fk-chrome: #f0eee6;
+  --fk-chrome-alt: #e8e6dc;
+  --fk-float: #ffffff;
+  --fk-text: #6c6a65;
+  --fk-muted: #6e6c67;
+  --fk-faint: #93908b;
+  --fk-line: #e8e6dc;
+  --fk-line-strong: #d6d3c7;
+  --fk-code: #f0eee6;
+  --fk-accent: #b94a4a;
+  --fk-accent-hover: #c75b5b;
+  --fk-accent-rgb: 236, 126, 126;
+  --fk-link: #b94a4a;
+  --fk-link-hover: #963939;
+  --fk-accent-soft: #f9e1df;
+  --fk-accent-soft-text: #9e3c3c;
+  --fk-quote: #efc3c0;
+  --fk-on-accent: #ffffff;
+}
+.theme-dark.fokus-scheme-claude-muted {
+  --accent-h: 0;
+  --accent-s: 75%;
+  --accent-l: 71%;
+  --fk-bg: #151515;
+  --fk-bg-alt: #1a1a19;
+  --fk-chrome: #111111;
+  --fk-chrome-alt: #1a1a19;
+  --fk-float: #20201f;
+  --fk-text: #898781;
+  --fk-muted: #817f79;
+  --fk-faint: #64635e;
   --fk-line: #313130;
   --fk-line-strong: #3b3b3a;
   --fk-code: #20201f;
