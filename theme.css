@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.9.0
+   Fokus — v1.9.1
    Borderless, 18 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -14,7 +14,7 @@ settings:
         title: Color scheme
         type: class-select
         allowEmpty: false
-        default: fokus-scheme-claude-desktop
+        default: fokus-scheme-fokus
         options:
             -
                 label: Ayu
@@ -22,12 +22,6 @@ settings:
             -
                 label: Catppuccin
                 value: fokus-scheme-catppuccin
-            -
-                label: Claude (muted)
-                value: fokus-scheme-claude-muted
-            -
-                label: Claude Desktop
-                value: fokus-scheme-claude-desktop
             -
                 label: Dracula
                 value: fokus-scheme-dracula
@@ -37,6 +31,12 @@ settings:
             -
                 label: Flexoki
                 value: fokus-scheme-flexoki
+            -
+                label: Fokus
+                value: fokus-scheme-fokus
+            -
+                label: Fokus (muted)
+                value: fokus-scheme-fokus-muted
             -
                 label: GitHub
                 value: fokus-scheme-github
@@ -234,7 +234,7 @@ body {
   --status-bar-text-color: var(--text-faint);
 }
 
-/* ---- Default: Claude Desktop ----------------------------- */
+/* ---- Default: Fokus ----------------------------- */
 .theme-light {
   --accent-h: 0;
   --accent-s: 43%;
@@ -962,8 +962,8 @@ body {
   --fk-on-accent: #1c1916;
 }
 
-/* ---- Claude (muted) ------------------------------------ */
-.theme-light.fokus-scheme-claude-muted {
+/* ---- Fokus (muted) ------------------------------------ */
+.theme-light.fokus-scheme-fokus-muted {
   --accent-h: 0;
   --accent-s: 43%;
   --accent-l: 51%;
@@ -989,7 +989,7 @@ body {
   --fk-on-accent: #ffffff;
   --fk-note-text: #6c6a65;
 }
-.theme-dark.fokus-scheme-claude-muted {
+.theme-dark.fokus-scheme-fokus-muted {
   --accent-h: 0;
   --accent-s: 75%;
   --accent-l: 71%;
