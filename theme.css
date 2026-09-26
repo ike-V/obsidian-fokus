@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.5.1
+   Fokus — v1.5.2
    Borderless, 13 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -1073,10 +1073,12 @@ body.fokus-collapsed.fokus-hide-tabs.fokus-hide-header .mod-root .markdown-previ
 }
 
 /* Title bar shown, tab bar hidden: clear the traffic lights (leftmost pane) and chevron (rightmost pane) */
+body.mod-macos.fokus-collapsed.fokus-hide-tabs:not(.fokus-hide-header) .mod-root .workspace-tabs.mod-top-left-space .view-header,
 body.mod-macos.fokus-collapsed.fokus-hide-tabs:not(.fokus-hide-header) .workspace-split.mod-root > .workspace-tabs:first-child .view-header,
 body.mod-macos.fokus-collapsed.fokus-hide-tabs:not(.fokus-hide-header) .workspace-split.mod-root > .workspace-split:first-child > .workspace-tabs:first-child .view-header {
   padding-left: 80px;
 }
+body.fokus-collapsed.fokus-hide-tabs:not(.fokus-hide-header) .mod-root .workspace-tabs.mod-top-right-space .view-header,
 body.fokus-collapsed.fokus-hide-tabs:not(.fokus-hide-header) .workspace-split.mod-root > .workspace-tabs:last-child .view-header,
 body.fokus-collapsed.fokus-hide-tabs:not(.fokus-hide-header) .workspace-split.mod-root > .workspace-split:last-child > .workspace-tabs:first-child .view-header {
   padding-right: 48px;
