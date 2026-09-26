@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.10.6
+   Fokus — v1.10.7
    Borderless, 18 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -261,8 +261,8 @@ body {
 }
 .theme-dark {
   --accent-h: 0;
-  --accent-s: 60%;
-  --accent-l: 64%;
+  --accent-s: 37%;
+  --accent-l: 49%;
   --fk-bg: #151515;
   --fk-bg-alt: #1a1a19;
   --fk-chrome: #111111;
@@ -274,14 +274,14 @@ body {
   --fk-line: #313130;
   --fk-line-strong: #3b3b3a;
   --fk-code: #20201f;
-  --fk-accent: #db6c6c;
-  --fk-accent-hover: #e37373;
-  --fk-link: #db6c6c;
-  --fk-link-hover: #e37373;
-  --fk-accent-soft: rgba(219, 108, 108, 0.16);
+  --fk-accent: #ac4f4f;
+  --fk-accent-hover: #b85a5a;
+  --fk-link: #d26565;
+  --fk-link-hover: #db6c6c;
+  --fk-accent-soft: rgba(172, 79, 79, 0.18);
   --fk-accent-soft-text: #e37373;
   --fk-quote: #5a3434;
-  --fk-on-accent: #141413;
+  --fk-on-accent: #ffffff;
 }
 
 /* ---- Placidity -------------------------------------------- */
@@ -962,8 +962,8 @@ body {
 }
 .theme-dark.fokus-scheme-fokus-muted {
   --accent-h: 0;
-  --accent-s: 60%;
-  --accent-l: 64%;
+  --accent-s: 37%;
+  --accent-l: 49%;
   --fk-bg: #151515;
   --fk-bg-alt: #1a1a19;
   --fk-chrome: #111111;
@@ -975,14 +975,14 @@ body {
   --fk-line: #313130;
   --fk-line-strong: #3b3b3a;
   --fk-code: #20201f;
-  --fk-accent: #db6c6c;
-  --fk-accent-hover: #e37373;
-  --fk-link: #db6c6c;
-  --fk-link-hover: #e37373;
-  --fk-accent-soft: rgba(219, 108, 108, 0.16);
+  --fk-accent: #ac4f4f;
+  --fk-accent-hover: #b85a5a;
+  --fk-link: #d26565;
+  --fk-link-hover: #db6c6c;
+  --fk-accent-soft: rgba(172, 79, 79, 0.18);
   --fk-accent-soft-text: #e37373;
   --fk-quote: #5a3434;
-  --fk-on-accent: #141413;
+  --fk-on-accent: #ffffff;
   --fk-note-text: #898781;
 }
 
