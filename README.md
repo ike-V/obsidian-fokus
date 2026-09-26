@@ -10,7 +10,7 @@ A borderless Obsidian theme with 18 color schemes (light + dark each) and a dist
 - 18 color schemes, each with light and dark variants, all meeting WCAG AA contrast.
 - AMOLED black option for dark mode.
 - Follows Obsidian's **Settings → Appearance → Accent color**; each scheme uses its own accent until one is set.
-- Rounded editor corners beside the ribbon and sidebars.
+- Rounded editor and settings corners beside the ribbon and sidebars.
 - Optional colored headings and colored bold / italic (inside notes only).
 - Uses your own fonts.
 

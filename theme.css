@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.10.11
+   Fokus — v1.10.12
    Borderless, 18 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -89,7 +89,7 @@ settings:
     -
         id: fk-corner
         title: Corner radius
-        description: Editor corners beside the ribbon and sidebars (px).
+        description: Editor and settings corners beside the sidebars (px).
         type: variable-number-slider
         default: 25
         min: 0
@@ -1260,6 +1260,13 @@ body:not(.fokus-collapsed) .workspace.is-left-sidedock-open .workspace-split.mod
 body:not(.fokus-collapsed) .workspace.is-right-sidedock-open .workspace-split.mod-root > .workspace-tabs:nth-last-child(1 of .workspace-tabs, .workspace-split) .workspace-leaf,
 body:not(.fokus-collapsed) .workspace.is-right-sidedock-open .workspace-split.mod-root > .workspace-split:nth-last-child(1 of .workspace-tabs, .workspace-split) > .workspace-tabs:nth-child(1 of .workspace-tabs, .workspace-split) .workspace-leaf {
   border-top-right-radius: var(--fk-corner);
+}
+.modal.mod-settings .vertical-tabs-container {
+  background-color: var(--modal-sidebar-background);
+}
+.modal.mod-settings .vertical-tab-content-container {
+  background-color: var(--modal-background);
+  border-top-left-radius: var(--fk-corner);
 }
 
 /* Note text: schemes may set --fk-note-text to recolor text inside notes only */
