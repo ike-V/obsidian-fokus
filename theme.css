@@ -1,6 +1,6 @@
 /* ============================================================
-   Fokus — v1.6.2
-   Borderless, 13 color schemes + AMOLED. Focus window via the
+   Fokus — v1.7.0
+   Borderless, 17 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
 
@@ -55,6 +55,18 @@ settings:
             -
                 label: Paper
                 value: fokus-scheme-paper
+            -
+                label: Claude
+                value: fokus-scheme-claude
+            -
+                label: One
+                value: fokus-scheme-one
+            -
+                label: Ayu
+                value: fokus-scheme-ayu
+            -
+                label: Kanagawa
+                value: fokus-scheme-kanagawa
     -
         id: fokus-amoled
         title: AMOLED black
@@ -893,6 +905,214 @@ body {
   --fk-accent-soft-text: #e0aa76;
   --fk-quote: #4a4238;
   --fk-on-accent: #1c1916;
+}
+
+/* ---- Claude ---------------------------------------------- */
+.theme-light.fokus-scheme-claude {
+  --accent-h: 15;
+  --accent-s: 55%;
+  --accent-l: 50%;
+  --fk-bg: #faf9f5;
+  --fk-bg-alt: #f5f4ee;
+  --fk-chrome: #f0eee6;
+  --fk-chrome-alt: #e8e6dc;
+  --fk-float: #ffffff;
+  --fk-text: #141413;
+  --fk-muted: #5e5d59;
+  --fk-faint: #8f8d86;
+  --fk-line: #e8e6dc;
+  --fk-line-strong: #d6d3c7;
+  --fk-code: #f0eee6;
+  --fk-accent: #c96442;
+  --fk-accent-hover: #b3553a;
+  --fk-accent-rgb: 201, 100, 66;
+  --fk-link: #b85635;
+  --fk-link-hover: #a14a2f;
+  --fk-accent-soft: #f5e6dc;
+  --fk-accent-soft-text: #9a4529;
+  --fk-quote: #e8c9b8;
+  --fk-on-accent: #141413;
+}
+.theme-dark.fokus-scheme-claude {
+  --accent-h: 15;
+  --accent-s: 63%;
+  --accent-l: 60%;
+  --fk-bg: #151515;
+  --fk-bg-alt: #1a1a19;
+  --fk-chrome: #111111;
+  --fk-chrome-alt: #1a1a19;
+  --fk-float: #20201f;
+  --fk-text: #e6e5e2;
+  --fk-muted: #a3a19b;
+  --fk-faint: #898781;
+  --fk-line: #313130;
+  --fk-line-strong: #3b3b3a;
+  --fk-code: #20201f;
+  --fk-accent: #d97757;
+  --fk-accent-hover: #e38b6d;
+  --fk-accent-rgb: 217, 119, 87;
+  --fk-link: #e0896b;
+  --fk-link-hover: #ecac93;
+  --fk-accent-soft: rgba(217, 119, 87, 0.16);
+  --fk-accent-soft-text: #e89a7e;
+  --fk-quote: #5a3a2e;
+  --fk-on-accent: #141413;
+}
+
+/* ---- One ------------------------------------------------- */
+.theme-light.fokus-scheme-one {
+  --accent-h: 221;
+  --accent-s: 87%;
+  --accent-l: 60%;
+  --fk-bg: #fafafa;
+  --fk-bg-alt: #f2f2f2;
+  --fk-chrome: #f0f0f1;
+  --fk-chrome-alt: #e5e5e6;
+  --fk-float: #ffffff;
+  --fk-text: #383a42;
+  --fk-muted: #5c5f69;
+  --fk-faint: #90919a;
+  --fk-line: #e5e5e6;
+  --fk-line-strong: #d3d3d5;
+  --fk-code: #f0f0f1;
+  --fk-accent: #316df1;
+  --fk-accent-hover: #a626a4;
+  --fk-accent-rgb: 64, 120, 242;
+  --fk-link: #3068e0;
+  --fk-link-hover: #a626a4;
+  --fk-accent-soft: #e1eafd;
+  --fk-accent-soft-text: #2356c4;
+  --fk-quote: #c2d3fb;
+  --fk-on-accent: #ffffff;
+}
+.theme-dark.fokus-scheme-one {
+  --accent-h: 207;
+  --accent-s: 82%;
+  --accent-l: 66%;
+  --fk-bg: #282c34;
+  --fk-bg-alt: #2c313a;
+  --fk-chrome: #21252b;
+  --fk-chrome-alt: #2c313a;
+  --fk-float: #2c313a;
+  --fk-text: #abb2bf;
+  --fk-muted: #8c93a1;
+  --fk-faint: #6e7583;
+  --fk-line: #3e4452;
+  --fk-line-strong: #4b5263;
+  --fk-code: #2c313a;
+  --fk-accent: #61afef;
+  --fk-accent-hover: #c678dd;
+  --fk-accent-rgb: 97, 175, 239;
+  --fk-link: #61afef;
+  --fk-link-hover: #c678dd;
+  --fk-accent-soft: rgba(97, 175, 239, 0.16);
+  --fk-accent-soft-text: #65b1ef;
+  --fk-quote: #4b5263;
+  --fk-on-accent: #282c34;
+}
+
+/* ---- Ayu ------------------------------------------------- */
+.theme-light.fokus-scheme-ayu {
+  --accent-h: 28;
+  --accent-s: 100%;
+  --accent-l: 63%;
+  --fk-bg: #fcfcfc;
+  --fk-bg-alt: #f5f6f7;
+  --fk-chrome: #f3f4f5;
+  --fk-chrome-alt: #e8e9eb;
+  --fk-float: #ffffff;
+  --fk-text: #4a4f55;
+  --fk-muted: #5c6166;
+  --fk-faint: #8a9199;
+  --fk-line: #e7e8e9;
+  --fk-line-strong: #d8d9db;
+  --fk-code: #f0f1f2;
+  --fk-accent: #b55f00;
+  --fk-accent-hover: #399ee6;
+  --fk-accent-rgb: 255, 153, 64;
+  --fk-link: #1e79bb;
+  --fk-link-hover: #c96a00;
+  --fk-accent-soft: #fdebd9;
+  --fk-accent-soft-text: #a85600;
+  --fk-quote: #f5c89a;
+  --fk-on-accent: #ffffff;
+}
+.theme-dark.fokus-scheme-ayu {
+  --accent-h: 40;
+  --accent-s: 100%;
+  --accent-l: 70%;
+  --fk-bg: #242936;
+  --fk-bg-alt: #1f2430;
+  --fk-chrome: #1f2430;
+  --fk-chrome-alt: #2a3040;
+  --fk-float: #2a3040;
+  --fk-text: #cccac2;
+  --fk-muted: #a2a4a8;
+  --fk-faint: #707a8c;
+  --fk-line: #363c4b;
+  --fk-line-strong: #454c5e;
+  --fk-code: #1f2430;
+  --fk-accent: #ffcc66;
+  --fk-accent-hover: #ffd580;
+  --fk-accent-rgb: 255, 204, 102;
+  --fk-link: #73d0ff;
+  --fk-link-hover: #ffcc66;
+  --fk-accent-soft: rgba(255, 204, 102, 0.16);
+  --fk-accent-soft-text: #ffcc66;
+  --fk-quote: #5c5142;
+  --fk-on-accent: #1f2430;
+}
+
+/* ---- Kanagawa -------------------------------------------- */
+.theme-light.fokus-scheme-kanagawa {
+  --accent-h: 219;
+  --accent-s: 34%;
+  --accent-l: 45%;
+  --fk-bg: #f2ecbc;
+  --fk-bg-alt: #e7dba0;
+  --fk-chrome: #e5ddb0;
+  --fk-chrome-alt: #dcd5ac;
+  --fk-float: #f5f0cb;
+  --fk-text: #545464;
+  --fk-muted: #5f5e54;
+  --fk-faint: #88877e;
+  --fk-line: #dcd5ac;
+  --fk-line-strong: #cfc68f;
+  --fk-code: #e7dba0;
+  --fk-accent: #4d699b;
+  --fk-accent-hover: #624c83;
+  --fk-accent-rgb: 77, 105, 155;
+  --fk-link: #4d699b;
+  --fk-link-hover: #624c83;
+  --fk-accent-soft: #dcdcc0;
+  --fk-accent-soft-text: #3d5584;
+  --fk-quote: #b5a980;
+  --fk-on-accent: #ffffff;
+}
+.theme-dark.fokus-scheme-kanagawa {
+  --accent-h: 221;
+  --accent-s: 50%;
+  --accent-l: 67%;
+  --fk-bg: #1f1f28;
+  --fk-bg-alt: #2a2a37;
+  --fk-chrome: #16161d;
+  --fk-chrome-alt: #223249;
+  --fk-float: #2a2a37;
+  --fk-text: #dcd7ba;
+  --fk-muted: #c8c093;
+  --fk-faint: #727169;
+  --fk-line: #363646;
+  --fk-line-strong: #54546d;
+  --fk-code: #2a2a37;
+  --fk-accent: #7e9cd8;
+  --fk-accent-hover: #957fb8;
+  --fk-accent-rgb: 126, 156, 216;
+  --fk-link: #7e9cd8;
+  --fk-link-hover: #957fb8;
+  --fk-accent-soft: rgba(126, 156, 216, 0.16);
+  --fk-accent-soft-text: #7e9cd8;
+  --fk-quote: #54546d;
+  --fk-on-accent: #1f1f28;
 }
 
 /* ---- AMOLED (dark, any scheme) ---------------------------- */
