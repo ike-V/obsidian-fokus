@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.9.4
+   Fokus — v1.9.5
    Borderless, 18 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -262,8 +262,8 @@ body {
 }
 .theme-dark {
   --accent-h: 0;
-  --accent-s: 75%;
-  --accent-l: 71%;
+  --accent-s: 60%;
+  --accent-l: 64%;
   --fk-bg: #151515;
   --fk-bg-alt: #1a1a19;
   --fk-chrome: #111111;
@@ -275,13 +275,13 @@ body {
   --fk-line: #313130;
   --fk-line-strong: #3b3b3a;
   --fk-code: #20201f;
-  --fk-accent: #ec7e7e;
-  --fk-accent-hover: #f1a2a2;
-  --fk-accent-rgb: 236, 126, 126;
-  --fk-link: #ec7e7e;
-  --fk-link-hover: #f1a2a2;
-  --fk-accent-soft: rgba(236, 126, 126, 0.16);
-  --fk-accent-soft-text: #ec7e7e;
+  --fk-accent: #db6c6c;
+  --fk-accent-hover: #e37373;
+  --fk-accent-rgb: 219, 108, 108;
+  --fk-link: #db6c6c;
+  --fk-link-hover: #e37373;
+  --fk-accent-soft: rgba(219, 108, 108, 0.16);
+  --fk-accent-soft-text: #e37373;
   --fk-quote: #5a3434;
   --fk-on-accent: #141413;
 }
@@ -991,8 +991,8 @@ body {
 }
 .theme-dark.fokus-scheme-fokus-muted {
   --accent-h: 0;
-  --accent-s: 75%;
-  --accent-l: 71%;
+  --accent-s: 60%;
+  --accent-l: 64%;
   --fk-bg: #151515;
   --fk-bg-alt: #1a1a19;
   --fk-chrome: #111111;
@@ -1004,13 +1004,13 @@ body {
   --fk-line: #313130;
   --fk-line-strong: #3b3b3a;
   --fk-code: #20201f;
-  --fk-accent: #ec7e7e;
-  --fk-accent-hover: #f1a2a2;
-  --fk-accent-rgb: 236, 126, 126;
-  --fk-link: #ec7e7e;
-  --fk-link-hover: #f1a2a2;
-  --fk-accent-soft: rgba(236, 126, 126, 0.16);
-  --fk-accent-soft-text: #ec7e7e;
+  --fk-accent: #db6c6c;
+  --fk-accent-hover: #e37373;
+  --fk-accent-rgb: 219, 108, 108;
+  --fk-link: #db6c6c;
+  --fk-link-hover: #e37373;
+  --fk-accent-soft: rgba(219, 108, 108, 0.16);
+  --fk-accent-soft-text: #e37373;
   --fk-quote: #5a3434;
   --fk-on-accent: #141413;
   --fk-note-text: #898781;
