@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.8.1
+   Fokus — v1.8.2
    Borderless, 18 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -1292,6 +1292,7 @@ body:not(.fokus-collapsed) .workspace.is-right-sidedock-open .workspace-split.mo
 .markdown-source-view,
 .markdown-preview-view {
   --text-normal: var(--fk-note-text, var(--fk-text));
+  color: var(--text-normal);
 }
 
 /* ---- Tab bar ---------------------------------------------- */
