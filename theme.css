@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.10.1
+   Fokus — v1.10.2
    Borderless, 18 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -1151,6 +1151,7 @@ body {
 /* ---- Mapping ---------------------------------------------- */
 .theme-light,
 .theme-dark {
+  --text-selection: Highlight;
   --background-primary: var(--fk-bg);
   --background-primary-alt: var(--fk-bg-alt);
   --background-secondary: var(--fk-chrome);
@@ -1209,7 +1210,6 @@ body {
   --background-modifier-hover: color-mix(in srgb, var(--fk-line-strong) 40%, transparent);
   --background-modifier-active-hover: color-mix(in srgb, var(--fk-line-strong) 60%, transparent);
   --background-modifier-form-field: var(--fk-chrome);
-  --text-selection: var(--fk-accent-soft);
   --text-highlight-bg: color-mix(in srgb, var(--fk-accent) 28%, transparent);
   --interactive-normal: var(--fk-bg);
   --interactive-hover: var(--fk-chrome);
@@ -1225,7 +1225,6 @@ body {
   --background-modifier-hover: rgba(255, 255, 255, 0.04);
   --background-modifier-active-hover: rgba(255, 255, 255, 0.07);
   --background-modifier-form-field: rgba(255, 255, 255, 0.08);
-  --text-selection: color-mix(in srgb, var(--fk-accent) 30%, transparent);
   --text-highlight-bg: color-mix(in srgb, var(--fk-accent) 28%, transparent);
   --interactive-normal: rgba(255, 255, 255, 0.05);
   --interactive-hover: rgba(255, 255, 255, 0.08);
