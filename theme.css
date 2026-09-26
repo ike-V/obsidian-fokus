@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.8.2
+   Fokus — v1.9.0
    Borderless, 18 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -14,7 +14,7 @@ settings:
         title: Color scheme
         type: class-select
         allowEmpty: false
-        default: fokus-scheme-indigo
+        default: fokus-scheme-claude-desktop
         options:
             -
                 label: Ayu
@@ -234,8 +234,60 @@ body {
   --status-bar-text-color: var(--text-faint);
 }
 
-/* ---- Schemes: Indigo (default) ---------------------------- */
+/* ---- Default: Claude Desktop ----------------------------- */
 .theme-light {
+  --accent-h: 0;
+  --accent-s: 43%;
+  --accent-l: 51%;
+  --fk-bg: #faf9f5;
+  --fk-bg-alt: #f5f4ee;
+  --fk-chrome: #f0eee6;
+  --fk-chrome-alt: #e8e6dc;
+  --fk-float: #ffffff;
+  --fk-text: #141413;
+  --fk-muted: #5e5d59;
+  --fk-faint: #8f8d86;
+  --fk-line: #e8e6dc;
+  --fk-line-strong: #d6d3c7;
+  --fk-code: #f0eee6;
+  --fk-accent: #b94a4a;
+  --fk-accent-hover: #c75b5b;
+  --fk-accent-rgb: 236, 126, 126;
+  --fk-link: #b94a4a;
+  --fk-link-hover: #963939;
+  --fk-accent-soft: #f9e1df;
+  --fk-accent-soft-text: #9e3c3c;
+  --fk-quote: #efc3c0;
+  --fk-on-accent: #ffffff;
+}
+.theme-dark {
+  --accent-h: 0;
+  --accent-s: 75%;
+  --accent-l: 71%;
+  --fk-bg: #151515;
+  --fk-bg-alt: #1a1a19;
+  --fk-chrome: #111111;
+  --fk-chrome-alt: #1a1a19;
+  --fk-float: #20201f;
+  --fk-text: #e6e5e2;
+  --fk-muted: #a3a19b;
+  --fk-faint: #898781;
+  --fk-line: #313130;
+  --fk-line-strong: #3b3b3a;
+  --fk-code: #20201f;
+  --fk-accent: #ec7e7e;
+  --fk-accent-hover: #f1a2a2;
+  --fk-accent-rgb: 236, 126, 126;
+  --fk-link: #ec7e7e;
+  --fk-link-hover: #f1a2a2;
+  --fk-accent-soft: rgba(236, 126, 126, 0.16);
+  --fk-accent-soft-text: #ec7e7e;
+  --fk-quote: #5a3434;
+  --fk-on-accent: #141413;
+}
+
+/* ---- Indigo ----------------------------------------------- */
+.theme-light.fokus-scheme-indigo {
   --accent-h: 243;
   --accent-s: 75%;
   --accent-l: 59%;
@@ -260,7 +312,7 @@ body {
   --fk-quote: #c7d2fe;
   --fk-on-accent: #ffffff;
 }
-.theme-dark {
+.theme-dark.fokus-scheme-indigo {
   --accent-h: 239;
   --accent-s: 84%;
   --accent-l: 67%;
@@ -908,58 +960,6 @@ body {
   --fk-accent-soft-text: #e0aa76;
   --fk-quote: #4a4238;
   --fk-on-accent: #1c1916;
-}
-
-/* ---- Claude Desktop ---------------------------------------------- */
-.theme-light.fokus-scheme-claude-desktop {
-  --accent-h: 0;
-  --accent-s: 43%;
-  --accent-l: 51%;
-  --fk-bg: #faf9f5;
-  --fk-bg-alt: #f5f4ee;
-  --fk-chrome: #f0eee6;
-  --fk-chrome-alt: #e8e6dc;
-  --fk-float: #ffffff;
-  --fk-text: #141413;
-  --fk-muted: #5e5d59;
-  --fk-faint: #8f8d86;
-  --fk-line: #e8e6dc;
-  --fk-line-strong: #d6d3c7;
-  --fk-code: #f0eee6;
-  --fk-accent: #b94a4a;
-  --fk-accent-hover: #c75b5b;
-  --fk-accent-rgb: 236, 126, 126;
-  --fk-link: #b94a4a;
-  --fk-link-hover: #963939;
-  --fk-accent-soft: #f9e1df;
-  --fk-accent-soft-text: #9e3c3c;
-  --fk-quote: #efc3c0;
-  --fk-on-accent: #ffffff;
-}
-.theme-dark.fokus-scheme-claude-desktop {
-  --accent-h: 0;
-  --accent-s: 75%;
-  --accent-l: 71%;
-  --fk-bg: #151515;
-  --fk-bg-alt: #1a1a19;
-  --fk-chrome: #111111;
-  --fk-chrome-alt: #1a1a19;
-  --fk-float: #20201f;
-  --fk-text: #e6e5e2;
-  --fk-muted: #a3a19b;
-  --fk-faint: #898781;
-  --fk-line: #313130;
-  --fk-line-strong: #3b3b3a;
-  --fk-code: #20201f;
-  --fk-accent: #ec7e7e;
-  --fk-accent-hover: #f1a2a2;
-  --fk-accent-rgb: 236, 126, 126;
-  --fk-link: #ec7e7e;
-  --fk-link-hover: #f1a2a2;
-  --fk-accent-soft: rgba(236, 126, 126, 0.16);
-  --fk-accent-soft-text: #ec7e7e;
-  --fk-quote: #5a3434;
-  --fk-on-accent: #141413;
 }
 
 /* ---- Claude (muted) ------------------------------------ */
