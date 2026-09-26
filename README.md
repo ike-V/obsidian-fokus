@@ -2,7 +2,7 @@
 
 A borderless Obsidian theme with 18 color schemes (light + dark each) and a distraction-free focus window.
 
-![Fokus](cover.png)
+![Fokus](screenshots/fokus.jpg)
 
 ## Features
 
