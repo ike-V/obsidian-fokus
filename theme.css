@@ -392,6 +392,7 @@ body {
   --fk-quote: #1f6b12;
   --fk-on-accent: #100f16;
   --text-highlight-bg: color-mix(in srgb, color-mix(in srgb, var(--fk-accent-hover) 60%, white) 32%, transparent);
+  --text-selection: var(--text-highlight-bg);
 }
 
 /* ---- Nord ------------------------------------------------- */
