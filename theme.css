@@ -345,9 +345,9 @@ body {
 
 /* ---- Violentz --------------------------------------------- */
 .theme-light.fokus-scheme-violentz {
-  --accent-h: 249.6;
-  --accent-s: 75.8%;
-  --accent-l: 62.7%;
+  --accent-h: 110.6;
+  --accent-s: 100%;
+  --accent-l: 33.7%;
   --fk-bg: #ffffff;
   --fk-bg-alt: #f8f8fb;
   --fk-chrome: #f1f1f6;
@@ -359,19 +359,19 @@ body {
   --fk-line: #e4e3ec;
   --fk-line-strong: #cfcdd9;
   --fk-code: #f8f8fb;
-  --fk-accent: #6f58e8;
-  --fk-accent-hover: #8b78f7;
-  --fk-link: #6f58e8;
-  --fk-link-hover: #8b78f7;
-  --fk-accent-soft: #ece8ff;
-  --fk-accent-soft-text: #5a43c9;
-  --fk-quote: #d4ccff;
-  --fk-on-accent: #ffffff;
+  --fk-accent: #1bac00;
+  --fk-accent-hover: #22c400;
+  --fk-link: #168900;
+  --fk-link-hover: #127000;
+  --fk-accent-soft: #e3fbdc;
+  --fk-accent-soft-text: #127000;
+  --fk-quote: #b8f0a6;
+  --fk-on-accent: #17161f;
 }
 .theme-dark.fokus-scheme-violentz {
-  --accent-h: 249;
-  --accent-s: 88.8%;
-  --accent-l: 72%;
+  --accent-h: 110.6;
+  --accent-s: 100%;
+  --accent-l: 53.9%;
   --fk-bg: #100f16;
   --fk-bg-alt: #16151d;
   --fk-chrome: #18171f;
@@ -383,13 +383,13 @@ body {
   --fk-line: #3a3847;
   --fk-line-strong: #4a4858;
   --fk-code: rgba(58, 56, 71, 0.35);
-  --fk-accent: #8b78f7;
-  --fk-accent-hover: #a393ff;
-  --fk-link: #a393ff;
-  --fk-link-hover: #d4ccff;
-  --fk-accent-soft: rgba(139, 120, 247, 0.2);
-  --fk-accent-soft-text: #d4ccff;
-  --fk-quote: #2f2466;
+  --fk-accent: #39ff14;
+  --fk-accent-hover: #7dff5e;
+  --fk-link: #39ff14;
+  --fk-link-hover: #9dff85;
+  --fk-accent-soft: rgba(57, 255, 20, 0.16);
+  --fk-accent-soft-text: #7dff5e;
+  --fk-quote: #1f6b12;
   --fk-on-accent: #100f16;
 }
 
