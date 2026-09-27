@@ -1420,6 +1420,10 @@ body:not(.fokus-collapsed) .workspace.is-right-sidedock-open .workspace-split.mo
 body:not(.fokus-collapsed) .workspace.is-right-sidedock-open .workspace-split.mod-root > .workspace-split:nth-last-child(1 of .workspace-tabs, .workspace-split) > .workspace-tabs:nth-child(1 of .workspace-tabs, .workspace-split) .workspace-leaf {
   border-top-right-radius: var(--fk-corner);
 }
+/* Phone: the title bar is too narrow for the folder path */
+.is-phone .view-header-title-parent {
+  display: none;
+}
 /* Mobile drawer view menu: opaque (Obsidian uses the translucent --interactive-normal) */
 .workspace-drawer-tab-options-list {
   background-color: var(--fk-float);
