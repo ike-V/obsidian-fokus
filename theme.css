@@ -1,6 +1,6 @@
 /* ============================================================
    Fokus — v1.10.14
-   Borderless, 21 color schemes + AMOLED. Focus window via the
+   Borderless, 21 color schemes + AMOLED. Fokus window via the
    Fokus Window Mode plugin.
    ============================================================ */
 
@@ -118,7 +118,7 @@ settings:
     -
         id: fokus-hide-ribbon
         title: Hide the ribbon
-        description: Focus window (⌘+\).
+        description: Fokus window (⌘+\).
         type: class-toggle
         default: true
     -
@@ -1454,7 +1454,7 @@ body:not(.fokus-collapsed) .workspace.is-right-sidedock-open .workspace-split.mo
   box-shadow: var(--shadow-s);
 }
 
-/* ---- Focus window ----------------------------------------- */
+/* ---- Fokus window ----------------------------------------- */
 /* Expand chevron: top-right corner, where the right sidebar toggle sits */
 .fokus-expand-chevron {
   display: none;
@@ -1500,7 +1500,7 @@ body.fokus-collapsed.fokus-hide-ribbon .workspace-ribbon.mod-left {
   display: none;
 }
 
-/* Sidebars: sealed until focus mode is exited */
+/* Sidebars: sealed until Fokus mode is exited */
 body.fokus-collapsed .workspace-split.mod-left-split,
 body.fokus-collapsed .workspace-split.mod-right-split,
 body.fokus-collapsed .sidebar-toggle-button {

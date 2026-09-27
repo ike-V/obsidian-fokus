@@ -1,8 +1,8 @@
 # Fokus
 
-A borderless Obsidian theme with 20+ color schemes (light + dark each) and a distraction-free focus window.
+A borderless Obsidian theme with 20+ color schemes (light + dark each) and a distraction-free Fokus window.
 
-![Writing in the focus window](screenshots/writing.jpg)
+![Writing in the Fokus window](screenshots/writing.jpg)
 
 ## The interface
 
@@ -16,11 +16,11 @@ A borderless Obsidian theme with 20+ color schemes (light + dark each) and a dis
 - **Your fonts.** Fokus sets none; it uses whatever you choose in Appearance.
 - **Line length** slider for the text column (with *Readable line length* on).
 
-## Focus window
+## Fokus window
 
 Needs the companion plugin **[Fokus Window Mode](https://github.com/ike-V/obsidian-fokus-window-mode)**.
 
-![Focus window across color schemes](screenshots/focus-window.jpg)
+![Fokus window across color schemes](screenshots/fokus-window.jpg)
 
 **⌘+\\** or the ⌃ chevron in the tab bar turns the window into a single page of writing.
 
@@ -29,7 +29,7 @@ Needs the companion plugin **[Fokus Window Mode](https://github.com/ike-V/obsidi
 - **No scrollbars.** Scrolling still works; the bar just isn't drawn.
 - **Still a normal window.** It drags by its top edge, and the macOS window buttons stay clear of your text.
 - **Leave** with ⌘+\\ or the ⌄ chevron in the top-right corner. Prefer the hotkey alone? Turn on *Hide the chevron buttons*.
-- **Nothing is changed** in your workspace or settings; focus mode is a single on/off switch.
+- **Nothing is changed** in your workspace or settings; Fokus mode is a single on/off switch.
 
 ## Install
 
@@ -41,6 +41,8 @@ Manual: copy `theme.css` and `manifest.json` into `.obsidian/themes/Fokus/`.
 
 Requires the [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) plugin.
 
+![Fokus Style Settings](screenshots/style-settings.png)
+
 | Setting | Options |
 |---|---|
 | Color scheme | Ayu, Catppuccin, Dracula, Everforest, Flexoki, Fokus (default), Fokus (muted), Gruvbox, Kanagawa, Night Owl, Nightfox, Nord, One, Paper, Placidity, Primer, Rosé Pine, Solarized, Tokyo Night, Violentz, Vitesse |
@@ -49,7 +51,7 @@ Requires the [Style Settings](https://github.com/mgmeyers/obsidian-style-setting
 | Corner radius | 0–40 px |
 | Colored headings | On / off |
 | Colored bold & italic | On / off |
-| Hide the ribbon / tab bar / title bar / status bar | What the focus window hides |
+| Hide the ribbon / tab bar / title bar / status bar | What the Fokus window hides |
 | Hide the chevron buttons | Use ⌘+\ only |
 
 ## Credits
@@ -69,7 +71,7 @@ Unofficial ports of these open-source palettes (all MIT):
 | Nightfox | [nightfox.nvim](https://github.com/EdenEast/nightfox.nvim) | EdenEast |
 | Nord | [Nord](https://github.com/nordtheme/nord) | Sven Greb |
 | One | [One Dark / One Light](https://github.com/atom/atom) | Atom |
-| Placidity | [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) indigo and gray | Tailwind Labs |
+| Placidity | [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) | Tailwind Labs |
 | Primer | [Primer](https://github.com/primer/primitives) | GitHub |
 | Rosé Pine | [Rosé Pine](https://github.com/rose-pine/rose-pine-theme) | Rosé Pine |
 | Solarized | [Solarized](https://github.com/altercation/solarized) | Ethan Schoonover |
