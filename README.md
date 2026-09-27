@@ -2,25 +2,34 @@
 
 A borderless Obsidian theme with 18 color schemes (light + dark each) and a distraction-free focus window.
 
-![Fokus](screenshots/fokus.jpg)
+![Writing in the focus window](screenshots/writing.jpg)
 
-## Features
+## The interface
 
-- Borderless panes separated by tone; floating menus and modals by shadow.
-- 18 color schemes, each with light and dark variants, all meeting WCAG AA contrast.
-- AMOLED black option for dark mode.
-- Follows Obsidian's **Settings → Appearance → Accent color**; each scheme uses its own accent until one is set.
-- Rounded editor and settings corners beside the ribbon and sidebars.
-- Optional colored headings and colored bold / italic (inside notes only).
-- Uses your own fonts.
+![Fokus across color schemes](screenshots/fokus.jpg)
+
+- **Borderless.** No divider lines: panes are set apart by tone, and menus, dialogs and the command palette float on a soft shadow.
+- **18 color schemes**, each with light and dark variants, all meeting WCAG AA contrast. *AMOLED black* makes dark backgrounds pure black.
+- **Your accent.** Each scheme uses its own accent until you pick one in **Settings → Appearance → Accent color**; links, buttons, tags and highlights then follow it.
+- **Rounded corners** where the editor meets the ribbon and sidebars, and in the settings window, all set by one slider (0–40 px).
+- **Colored headings and colored bold / italic**, inside notes only, each with its own toggle.
+- **Your fonts.** Fokus sets none; it uses whatever you choose in Appearance.
+- **Line length** slider for the text column (with *Readable line length* on).
 
 ## Focus window
 
-Install the companion plugin **[Fokus Window Mode](https://github.com/ike-V/obsidian-fokus-window-mode)** to hide the ribbon, sidebars, tab bar, title bar and status bar with ⌘+\ or a tab-bar chevron.
+Needs the companion plugin **[Fokus Window Mode](https://github.com/ike-V/obsidian-fokus-window-mode)**.
 
 ![Focus window across color schemes](screenshots/focus-window.jpg)
 
-![Writing in the focus window](screenshots/writing.jpg)
+**⌘+\\** or the ⌃ chevron in the tab bar turns the window into a single page of writing.
+
+- **Hides the ribbon, tab bar, title bar and status bar** by default; keep any of them in **Style Settings → Fokus Style Settings**.
+- **Sidebars stay closed** until you leave, so a stray hotkey can't pull one over your text. They return exactly as they were.
+- **No scrollbars.** Scrolling still works; the bar just isn't drawn.
+- **Still a normal window.** It drags by its top edge, and the macOS window buttons stay clear of your text.
+- **Leave** with ⌘+\\ or the ⌄ chevron in the top-right corner. Prefer the hotkey alone? Turn on *Hide the chevron buttons*.
+- **Nothing is changed** in your workspace or settings; focus mode is a single on/off switch.
 
 ## Install
 
