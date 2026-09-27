@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.10.12
+   Fokus — v1.10.13
    Borderless, 18 color schemes + AMOLED. Focus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -1260,6 +1260,10 @@ body:not(.fokus-collapsed) .workspace.is-left-sidedock-open .workspace-split.mod
 body:not(.fokus-collapsed) .workspace.is-right-sidedock-open .workspace-split.mod-root > .workspace-tabs:nth-last-child(1 of .workspace-tabs, .workspace-split) .workspace-leaf,
 body:not(.fokus-collapsed) .workspace.is-right-sidedock-open .workspace-split.mod-root > .workspace-split:nth-last-child(1 of .workspace-tabs, .workspace-split) > .workspace-tabs:nth-child(1 of .workspace-tabs, .workspace-split) .workspace-leaf {
   border-top-right-radius: var(--fk-corner);
+}
+/* Mobile drawer view menu: opaque (Obsidian uses the translucent --interactive-normal) */
+.workspace-drawer-tab-options-list {
+  background-color: var(--fk-float);
 }
 .modal.mod-settings .vertical-tabs-container {
   background-color: var(--modal-sidebar-background);
