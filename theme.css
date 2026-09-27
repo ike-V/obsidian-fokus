@@ -387,11 +387,11 @@ body {
   --fk-accent-hover: #7dff5e;
   --fk-link: #50de35;
   --fk-link-hover: #a7ee96;
-  --fk-accent-soft: rgba(125, 255, 94, 0.2);
+  --fk-accent-soft: color-mix(in srgb, color-mix(in srgb, var(--fk-accent-hover) 60%, white) 20%, transparent);
   --fk-accent-soft-text: #8be875;
   --fk-quote: #1f6b12;
   --fk-on-accent: #100f16;
-  --text-highlight-bg: color-mix(in srgb, var(--fk-accent-hover) 32%, transparent);
+  --text-highlight-bg: color-mix(in srgb, color-mix(in srgb, var(--fk-accent-hover) 60%, white) 32%, transparent);
 }
 
 /* ---- Nord ------------------------------------------------- */
