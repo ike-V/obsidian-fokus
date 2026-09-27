@@ -1,6 +1,6 @@
 # Fokus
 
-A borderless Obsidian theme with 18 color schemes (light + dark each) and a distraction-free focus window.
+A borderless Obsidian theme with 20+ color schemes (light + dark each) and a distraction-free focus window.
 
 ![Writing in the focus window](screenshots/writing.jpg)
 
@@ -9,7 +9,7 @@ A borderless Obsidian theme with 18 color schemes (light + dark each) and a dist
 ![Fokus across color schemes](screenshots/fokus.jpg)
 
 - **Borderless.** No divider lines: panes are set apart by tone, and menus, dialogs and the command palette float on a soft shadow.
-- **18 color schemes**, each with light and dark variants, all meeting WCAG AA contrast. *AMOLED black* makes dark backgrounds pure black.
+- **20+ color schemes**, each with light and dark variants, all meeting WCAG AA contrast. *AMOLED black* makes dark backgrounds pure black.
 - **Your accent.** Each scheme uses its own accent until you pick one in **Settings → Appearance → Accent color**; links, buttons, tags and highlights then follow it.
 - **Rounded corners** where the editor meets the ribbon and sidebars, and in the settings window, all set by one slider (0–40 px).
 - **Colored headings and colored bold / italic**, inside notes only, each with its own toggle.
@@ -43,7 +43,7 @@ Requires the [Style Settings](https://github.com/mgmeyers/obsidian-style-setting
 
 | Setting | Options |
 |---|---|
-| Color scheme | Ayu, Catppuccin, Dracula, Everforest, Flexoki, Fokus (default), Fokus (muted), Gruvbox, Kanagawa, Nord, One, Paper, Placidity, Primer, Rosé Pine, Solarized, Tokyo Night, Violentz |
+| Color scheme | Ayu, Catppuccin, Dracula, Everforest, Flexoki, Fokus (default), Fokus (muted), Gruvbox, Kanagawa, Night Owl, Nightfox, Nord, One, Paper, Placidity, Primer, Rosé Pine, Solarized, Tokyo Night, Violentz, Vitesse |
 | AMOLED black | Pure black backgrounds (dark mode) |
 | Line length | Text column width; needs Readable line length on |
 | Corner radius | 0–40 px |
@@ -65,6 +65,8 @@ Unofficial ports of these open-source palettes (all MIT):
 | Flexoki | [Flexoki](https://github.com/kepano/flexoki) | Steph Ango |
 | Gruvbox | [gruvbox](https://github.com/morhetz/gruvbox) | Pavel Pertsev |
 | Kanagawa | [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) | Tommaso Laurenzi |
+| Night Owl | [Night Owl](https://github.com/sdras/night-owl-vscode-theme) | Sarah Drasner |
+| Nightfox | [nightfox.nvim](https://github.com/EdenEast/nightfox.nvim) | EdenEast |
 | Nord | [Nord](https://github.com/nordtheme/nord) | Sven Greb |
 | One | [One Dark / One Light](https://github.com/atom/atom) | Atom |
 | Placidity | [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) indigo and gray | Tailwind Labs |
@@ -72,6 +74,7 @@ Unofficial ports of these open-source palettes (all MIT):
 | Rosé Pine | [Rosé Pine](https://github.com/rose-pine/rose-pine-theme) | Rosé Pine |
 | Solarized | [Solarized](https://github.com/altercation/solarized) | Ethan Schoonover |
 | Tokyo Night | [Tokyo Night](https://github.com/enkia/tokyo-night-vscode-theme) | enkia |
+| Vitesse | [Vitesse](https://github.com/antfu/vscode-theme-vitesse) | Anthony Fu |
 
 Some colors were adjusted to meet contrast requirements.
 
