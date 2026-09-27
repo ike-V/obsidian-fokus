@@ -391,6 +391,7 @@ body {
   --fk-accent-soft-text: #8be875;
   --fk-quote: #1f6b12;
   --fk-on-accent: #100f16;
+  --nav-item-color-active: var(--fk-accent);
 }
 
 /* ---- Nord ------------------------------------------------- */
