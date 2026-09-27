@@ -385,12 +385,13 @@ body {
   --fk-code: rgba(58, 56, 71, 0.35);
   --fk-accent: #39ff14;
   --fk-accent-hover: #7dff5e;
-  --fk-link: #39ff14;
-  --fk-link-hover: #9dff85;
-  --fk-accent-soft: rgba(57, 255, 20, 0.16);
-  --fk-accent-soft-text: #7dff5e;
+  --fk-link: #50de35;
+  --fk-link-hover: #a7ee96;
+  --fk-accent-soft: rgba(125, 255, 94, 0.2);
+  --fk-accent-soft-text: #8be875;
   --fk-quote: #1f6b12;
   --fk-on-accent: #100f16;
+  --text-highlight-bg: color-mix(in srgb, var(--fk-accent-hover) 32%, transparent);
 }
 
 /* ---- Nord ------------------------------------------------- */
