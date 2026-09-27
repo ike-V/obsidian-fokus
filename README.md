@@ -18,6 +18,10 @@ A borderless Obsidian theme with 18 color schemes (light + dark each) and a dist
 
 Install the companion plugin **[Fokus Window Mode](https://github.com/ike-V/obsidian-fokus-window-mode)** to hide the ribbon, sidebars, tab bar, title bar and status bar with ⌘+\ or a tab-bar chevron.
 
+![Focus window across color schemes](screenshots/focus-window.jpg)
+
+![Writing in the focus window](screenshots/writing.jpg)
+
 ## Install
 
 **Settings → Appearance → Themes → Manage → search "Fokus" → Install and use.**
