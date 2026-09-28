@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.0.2
+   Fokus — v1.0.3
    Borderless, 21 color schemes + AMOLED. Fokus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -1471,6 +1471,10 @@ body:not(.fokus-collapsed) .workspace.is-right-sidedock-open .workspace-split.mo
 body.fokus-collapsed.fokus-hide-tabs:not(.fokus-hide-chevrons) .fokus-expand-chevron {
   display: flex;
 }
+/* Windows / Linux: below the window buttons */
+body.is-frameless:is(.mod-windows, .mod-linux) .fokus-expand-chevron {
+  top: var(--header-height);
+}
 body.fokus-collapsed .fokus-collapse-chevron svg {
   transform: rotate(180deg);
 }
@@ -1494,6 +1498,10 @@ body.fokus-collapsed.fokus-hide-tabs.fokus-hide-header .fokus-drag-strip {
 }
 body.is-frameless > .app-container ~ .fokus-drag-strip {
   -webkit-app-region: drag;
+}
+/* Windows / Linux: stop short of the window buttons (3 × ~50px) */
+body.is-frameless:is(.mod-windows, .mod-linux) .fokus-drag-strip {
+  right: 160px;
 }
 
 /* Ribbon: hidden in CSS; the "Show ribbon" setting is never changed */
