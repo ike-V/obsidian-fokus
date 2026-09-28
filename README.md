@@ -4,6 +4,8 @@
 
 Fokus is a borderless Obsidian theme for people who'd rather see their notes than the app around it. It comes with more than 20 color schemes, each with a light and dark version, and the Fokus window that leaves just you and your work with as little friction as possible.
 
+![Writing in the Fokus window](screenshots/writing.png)
+
 ## The Themes
 
 ![Fokus across color schemes](screenshots/fokus.png)
