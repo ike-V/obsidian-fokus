@@ -22,20 +22,20 @@ Needs the companion plugin **[Fokus Window Mode](https://github.com/ike-V/obsidi
 
 ![Fokus window across color schemes](screenshots/fokus-window.png)
 
-**⌘+\\** or the ⌃ chevron in the tab bar turns the window into a single page of writing.
+The hotkey or the ⌃ chevron in the tab bar turns the window into a single page of writing. Turn on ⌘+\\ in *Settings → Fokus Window Mode*, or set any key in *Settings → Hotkeys*.
 
 - **Hides the ribbon, tab bar, title bar and status bar** by default; keep any of them in **Style Settings → Fokus Style Settings**.
 - **Sidebars stay closed** until you leave, so a stray hotkey can't pull one over your text. They return exactly as they were.
 - **No scrollbars.** Scrolling still works; the bar just isn't drawn.
 - **Still a normal window.** It drags by its top edge, and the macOS window buttons stay clear of your text.
-- **Leave** with ⌘+\\ or the ⌄ chevron in the top-right corner. Prefer the hotkey alone? Turn on *Hide the chevron buttons*.
+- **Leave** with the hotkey or the ⌄ chevron in the top-right corner. Prefer the hotkey alone? Turn on *Hide the chevron buttons*.
 - **Nothing is changed** in your workspace or settings; Fokus mode is a single on/off switch.
 
 ## Companion plugins
 
 | Plugin | Adds |
 |---|---|
-| [Fokus Window Mode](https://github.com/ike-V/obsidian-fokus-window-mode) | The Fokus window: ⌘+\\ or a tab-bar chevron hides the ribbon, sidebars, tab bar, title bar and status bar |
+| [Fokus Window Mode](https://github.com/ike-V/obsidian-fokus-window-mode) | The Fokus window: a hotkey or a tab-bar chevron hides the ribbon, sidebars, tab bar, title bar and status bar |
 | [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) | The settings below: color scheme, AMOLED black, line length, corner radius, colors and what the Fokus window hides |
 
 Both are optional; without them Fokus uses its default scheme and settings.
@@ -61,7 +61,7 @@ Requires the [Style Settings](https://github.com/mgmeyers/obsidian-style-setting
 | Colored headings | On / off |
 | Colored bold & italic | On / off |
 | Hide the ribbon / tab bar / title bar / status bar | What the Fokus window hides |
-| Hide the chevron buttons | Use ⌘+\ only |
+| Hide the chevron buttons | Use the hotkey only |
 
 ## Credits
 

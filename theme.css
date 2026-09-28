@@ -118,7 +118,7 @@ settings:
     -
         id: fokus-hide-ribbon
         title: Hide the ribbon
-        description: Fokus window (⌘+\).
+        description: In the Fokus window.
         type: class-toggle
         default: true
     -
@@ -140,7 +140,7 @@ settings:
     -
         id: fokus-hide-chevrons
         title: Hide the chevron buttons
-        description: Use ⌘+\.
+        description: Use the hotkey.
         type: class-toggle
         default: false
 */
