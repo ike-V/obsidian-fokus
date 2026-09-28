@@ -2,11 +2,11 @@
 
 A borderless Obsidian theme with 20+ color schemes (light + dark each) and a distraction-free Fokus window.
 
-![Writing in the Fokus window](screenshots/writing.jpg)
+![Writing in the Fokus window](screenshots/writing.png)
 
 ## The interface
 
-![Fokus across color schemes](screenshots/fokus.jpg)
+![Fokus across color schemes](screenshots/fokus.png)
 
 - **Borderless.** No divider lines: panes are set apart by tone, and menus, dialogs and the command palette float on a soft shadow.
 - **20+ color schemes**, each with light and dark variants, all meeting WCAG AA contrast. *AMOLED black* makes dark backgrounds pure black.
@@ -20,7 +20,7 @@ A borderless Obsidian theme with 20+ color schemes (light + dark each) and a dis
 
 Needs the companion plugin **[Fokus Window Mode](https://github.com/ike-V/obsidian-fokus-window-mode)**.
 
-![Fokus window across color schemes](screenshots/fokus-window.jpg)
+![Fokus window across color schemes](screenshots/fokus-window.png)
 
 **⌘+\\** or the ⌃ chevron in the tab bar turns the window into a single page of writing.
 
