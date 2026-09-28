@@ -1,5 +1,7 @@
 # Fokus
 
+![Fokus](screenshots/fokus-cover.png)
+
 A borderless Obsidian theme with 20+ color schemes (light + dark each) and a distraction-free Fokus window.
 
 ![Writing in the Fokus window](screenshots/writing.png)
