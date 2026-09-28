@@ -4,8 +4,6 @@
 
 A borderless Obsidian theme with 20+ color schemes (light + dark each) and a distraction-free Fokus window.
 
-![Writing in the Fokus window](screenshots/writing.png)
-
 ## The interface
 
 ![Fokus across color schemes](screenshots/fokus.png)
