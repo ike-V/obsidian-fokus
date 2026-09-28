@@ -31,6 +31,15 @@ Needs the companion plugin **[Fokus Window Mode](https://github.com/ike-V/obsidi
 - **Leave** with ⌘+\\ or the ⌄ chevron in the top-right corner. Prefer the hotkey alone? Turn on *Hide the chevron buttons*.
 - **Nothing is changed** in your workspace or settings; Fokus mode is a single on/off switch.
 
+## Companion plugins
+
+| Plugin | Adds |
+|---|---|
+| [Fokus Window Mode](https://github.com/ike-V/obsidian-fokus-window-mode) | The Fokus window: ⌘+\\ or a tab-bar chevron hides the ribbon, sidebars, tab bar, title bar and status bar |
+| [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) | The settings below: color scheme, AMOLED black, line length, corner radius, colors and what the Fokus window hides |
+
+Both are optional; without them Fokus uses its default scheme and settings.
+
 ## Install
 
 **Settings → Appearance → Themes → Manage → search "Fokus" → Install and use.**
