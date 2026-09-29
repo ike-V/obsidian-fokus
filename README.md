@@ -2,7 +2,7 @@
 
 ![Fokus](screenshots/fokus-cover.png)
 
-Fokus is a borderless Obsidian theme for people who'd rather see their notes than the app around it. It comes with more than 20 color schemes, each with a light and dark version, and the Fokus window that leaves just you and your work with as little friction as possible.
+Fokus is a borderless Obsidian theme for people who'd rather see their notes than the app around them. It comes with more than 20 color schemes, each with a light and dark version, and the Fokus window that leaves just you and your work with as little friction as possible.
 
 ![Writing in the Fokus window](screenshots/writing.png)
 
@@ -14,13 +14,13 @@ No divider lines anywhere. Carefully curated recreations of popular colorways, w
 
 - **More than 20 color schemes.** Every one has a light and dark version and is checked against WCAG AA contrast, so text stays readable in all of them. An *AMOLED black* setting gives pure black backgrounds in dark mode.
 - **Your accent color.** Each scheme starts with its own curated accent color. Pick a different one in **Settings → Appearance → Accent color** and links, buttons, tags and highlights all follow it.
-- **Rounded corners.** One slider in [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) controls the corner radius, with a comfy 25px default.
+- **Rounded corners.** One slider in [Style Settings](https://github.com/community-archive/obsidian-style-settings) controls the corner radius, with a comfy 25px default.
 - **Colored headings and colored bold/italic.** Choose between the current theme's text color or Obsidian's built-in colored headings.
 - **Adjustable line length** for the text column (with *Readable line length* turned on).
 
 Fokus works on macOS, Windows, Linux, iOS and Android. On phones, the title bar shows just the note name, because there's no room for the folder path.
 
-## Fokus window
+## Fokus Window
 
 ![Fokus window across color schemes](screenshots/fokus-window.png)
 
@@ -29,7 +29,7 @@ With the companion plugin [Fokus Window Mode](https://github.com/ike-V/obsidian-
 - **Everything else steps aside:** the ribbon, tab bar, title bar and status bar all hide. Want to keep any of them? Choose in **Style Settings → Fokus Style Settings**.
 - **Sidebars stay put** until you leave, so a stray shortcut can't slide one over your text. When you come back, they're exactly how you left them.
 - **No scrollbars.** You can still scroll; the bar just isn't there.
-- **It's still a normal window.** You can drag it by the top edge, and on macOS the window buttons stay out of your text's way.
+- **It's still a normal window.** You can drag it by the top edge, shake it around a bit, if so inclined.
 - **Leaving** is the same hotkey again, or the ⌄ chevron in the top-right corner. If you'd rather use only the hotkey, turn on *Hide the chevron buttons*.
 - **Nothing gets rearranged.** Your workspace and settings are left alone; it's a simple on/off switch.
 
@@ -42,7 +42,7 @@ Both are optional. Without them, Fokus uses its default scheme and settings.
 | Plugin | What it adds |
 |---|---|
 | [Fokus Window Mode](https://github.com/ike-V/obsidian-fokus-window-mode) | The Fokus window (desktop) |
-| [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) | The settings below: color scheme, AMOLED black, line length, corners, colors, and what the Fokus window hides |
+| [Style Settings](https://github.com/community-archive/obsidian-style-settings) | The settings below: color scheme, AMOLED black, line length, corners, colors, and what the Fokus window hides |
 
 ## Install
 
@@ -52,7 +52,7 @@ To install it manually, copy `theme.css` and `manifest.json` into `.obsidian/the
 
 ## Settings
 
-These appear under **Style Settings → Fokus Style Settings**.
+These appear under **[Style Settings](https://github.com/community-archive/obsidian-style-settings) → Fokus Style Settings**.
 
 ![Fokus Style Settings](screenshots/style-settings.png)
 
