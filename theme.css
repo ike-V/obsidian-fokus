@@ -1413,12 +1413,12 @@ body.theme-dark[style*="--accent-h"] {
 }
 
 /* ---- macOS traffic lights ---------------------------------- */
-/* The lights don't zoom; keep their gap constant at any zoom level */
+/* Lights sit at 20·zoom−6 real px and are 52px wide: reserve 20 + 46/zoom page px (+6), never less than Obsidian's 80 */
 body.mod-macos {
-  --frame-left-space: calc(80px / var(--zoom-factor) - var(--ribbon-width));
+  --frame-left-space: calc(max(80px, 26px + 46px / var(--zoom-factor)) - var(--ribbon-width));
 }
 body.mod-macos.is-popout-window {
-  --frame-left-space: calc(80px / var(--zoom-factor));
+  --frame-left-space: max(80px, 26px + 46px / var(--zoom-factor));
 }
 
 /* ---- Editor corner ---------------------------------------- */
@@ -1560,10 +1560,10 @@ body.fokus-collapsed.fokus-hide-tabs.fokus-hide-header .mod-root .markdown-previ
 /* Title bar shown, tab bar hidden: clear the traffic lights (leftmost pane) and chevron (rightmost pane) */
 body.mod-macos.fokus-collapsed.fokus-hide-tabs:not(.fokus-hide-header) .workspace-split.mod-root > .workspace-tabs:nth-child(1 of .workspace-tabs, .workspace-split) .view-header,
 body.mod-macos.fokus-collapsed.fokus-hide-tabs:not(.fokus-hide-header) .workspace-split.mod-root > .workspace-split:nth-child(1 of .workspace-tabs, .workspace-split) > .workspace-tabs:nth-child(1 of .workspace-tabs, .workspace-split) .view-header {
-  padding-left: calc(80px / var(--zoom-factor));
+  padding-left: max(80px, 26px + 46px / var(--zoom-factor));
 }
 body.mod-macos.fokus-collapsed.fokus-hide-tabs:not(.fokus-hide-header) .mod-root .workspace-tabs.mod-top-left-space .view-header {
-  padding-left: calc(80px / var(--zoom-factor));
+  padding-left: max(80px, 26px + 46px / var(--zoom-factor));
 }
 body.fokus-collapsed.fokus-hide-tabs:not(.fokus-hide-header) .workspace-split.mod-root > .workspace-tabs:nth-last-child(1 of .workspace-tabs, .workspace-split) .view-header,
 body.fokus-collapsed.fokus-hide-tabs:not(.fokus-hide-header) .workspace-split.mod-root > .workspace-split:nth-last-child(1 of .workspace-tabs, .workspace-split) > .workspace-tabs:nth-child(1 of .workspace-tabs, .workspace-split) .view-header {
