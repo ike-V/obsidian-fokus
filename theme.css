@@ -1412,6 +1412,15 @@ body.theme-dark[style*="--accent-h"] {
   --fk-quote: hsla(var(--accent-h), var(--accent-s), var(--accent-l), 0.4);
 }
 
+/* ---- macOS traffic lights ---------------------------------- */
+/* The lights don't zoom; keep their gap constant at any zoom level */
+body.mod-macos {
+  --frame-left-space: calc(80px / var(--zoom-factor) - var(--ribbon-width));
+}
+body.mod-macos.is-popout-window {
+  --frame-left-space: calc(80px / var(--zoom-factor));
+}
+
 /* ---- Editor corner ---------------------------------------- */
 .workspace-split.mod-root {
   background-color: var(--fk-chrome);
@@ -1551,10 +1560,10 @@ body.fokus-collapsed.fokus-hide-tabs.fokus-hide-header .mod-root .markdown-previ
 /* Title bar shown, tab bar hidden: clear the traffic lights (leftmost pane) and chevron (rightmost pane) */
 body.mod-macos.fokus-collapsed.fokus-hide-tabs:not(.fokus-hide-header) .workspace-split.mod-root > .workspace-tabs:nth-child(1 of .workspace-tabs, .workspace-split) .view-header,
 body.mod-macos.fokus-collapsed.fokus-hide-tabs:not(.fokus-hide-header) .workspace-split.mod-root > .workspace-split:nth-child(1 of .workspace-tabs, .workspace-split) > .workspace-tabs:nth-child(1 of .workspace-tabs, .workspace-split) .view-header {
-  padding-left: 80px;
+  padding-left: calc(80px / var(--zoom-factor));
 }
 body.mod-macos.fokus-collapsed.fokus-hide-tabs:not(.fokus-hide-header) .mod-root .workspace-tabs.mod-top-left-space .view-header {
-  padding-left: 80px;
+  padding-left: calc(80px / var(--zoom-factor));
 }
 body.fokus-collapsed.fokus-hide-tabs:not(.fokus-hide-header) .workspace-split.mod-root > .workspace-tabs:nth-last-child(1 of .workspace-tabs, .workspace-split) .view-header,
 body.fokus-collapsed.fokus-hide-tabs:not(.fokus-hide-header) .workspace-split.mod-root > .workspace-split:nth-last-child(1 of .workspace-tabs, .workspace-split) > .workspace-tabs:nth-child(1 of .workspace-tabs, .workspace-split) .view-header {
