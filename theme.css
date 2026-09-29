@@ -82,13 +82,13 @@ settings:
     -
         id: fokus-amoled
         title: AMOLED Black
-        description: Dark mode only.
+        description: Dark mode only
         type: class-toggle
         default: false
     -
         id: file-line-width
         title: Line Length
-        description: Needs Readable line length on.
+        description: Needs Readable line length on
         type: variable-number-slider
         default: 100
         min: 30
@@ -98,7 +98,7 @@ settings:
     -
         id: fk-corner
         title: Corner Radius
-        description: Editor and settings corners beside the sidebars (px).
+        description: Editor and settings corners beside the sidebars (px)
         type: variable-number-slider
         default: 25
         min: 0
@@ -118,13 +118,13 @@ settings:
     -
         id: fokus-window-info
         title: Fokus Window
-        description: "[Fokus Window Mode](obsidian://show-plugin?id=fokus) plugin for settings below."
+        description: "[Fokus Window Mode](obsidian://show-plugin?id=fokus)<br>plugin for settings below (for desktop only)"
         type: info-text
         markdown: true
     -
         id: fokus-hide-ribbon
         title: Hide Ribbon
-        description: In Fokus window.
+        description: In Fokus window
         type: class-toggle
         default: true
     -
@@ -135,7 +135,7 @@ settings:
     -
         id: fokus-hide-header
         title: Hide Title Bar
-        description: Also hides back / forward.
+        description: Also hides back / forward
         type: class-toggle
         default: true
     -
@@ -146,7 +146,7 @@ settings:
     -
         id: fokus-hide-chevrons
         title: Hide Chevron Buttons
-        description: Use hotkey.
+        description: Use hotkey
         type: class-toggle
         default: false
 */
