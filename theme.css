@@ -11,7 +11,7 @@ id: fokus
 settings:
     -
         id: fokus-scheme
-        title: Color scheme
+        title: Color Scheme
         type: class-select
         allowEmpty: false
         default: fokus-scheme-fokus
@@ -81,13 +81,13 @@ settings:
                 value: fokus-scheme-vitesse
     -
         id: fokus-amoled
-        title: AMOLED black
+        title: AMOLED Black
         description: Dark mode only.
         type: class-toggle
         default: false
     -
         id: file-line-width
-        title: Line length
+        title: Line Length
         description: Needs Readable line length on.
         type: variable-number-slider
         default: 100
@@ -97,7 +97,7 @@ settings:
         format: vw
     -
         id: fk-corner
-        title: Corner radius
+        title: Corner Radius
         description: Editor and settings corners beside the sidebars (px).
         type: variable-number-slider
         default: 25
@@ -107,45 +107,45 @@ settings:
         format: px
     -
         id: fokus-colored-headings
-        title: Colored headings
+        title: Colored Headings
         type: class-toggle
         default: true
     -
         id: fokus-colored-emphasis
-        title: Colored bold & italic
+        title: Colored Bold & Italic
         type: class-toggle
         default: true
     -
         id: fokus-window-info
-        title: Fokus window
+        title: Fokus Window
         description: "[Fokus Window Mode](obsidian://show-plugin?id=fokus) plugin for settings below."
         type: info-text
         markdown: true
     -
         id: fokus-hide-ribbon
-        title: Hide ribbon
+        title: Hide Ribbon
         description: In Fokus window.
         type: class-toggle
         default: true
     -
         id: fokus-hide-tabs
-        title: Hide tab bar
+        title: Hide Tab Bar
         type: class-toggle
         default: true
     -
         id: fokus-hide-header
-        title: Hide title bar
+        title: Hide Title Bar
         description: Also hides back / forward.
         type: class-toggle
         default: true
     -
         id: fokus-hide-status
-        title: Hide status bar
+        title: Hide Status Bar
         type: class-toggle
         default: true
     -
         id: fokus-hide-chevrons
-        title: Hide chevron buttons
+        title: Hide Chevron Buttons
         description: Use hotkey.
         type: class-toggle
         default: false

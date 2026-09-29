@@ -12,7 +12,7 @@ Fokus is a borderless Obsidian theme for people who'd rather see their notes tha
 
 No divider lines anywhere. Carefully curated recreations of popular colorways, with some personally created for this release. Menus, dialogs and the command palette are all themed to match the main theme.
 
-- **More than 20 color schemes.** Every one has a light and dark version and is checked against WCAG AA contrast, so text stays readable in all of them. An *AMOLED black* setting gives pure black backgrounds in dark mode.
+- **More than 20 color schemes.** Every one has a light and dark version and is checked against WCAG AA contrast, so text stays readable in all of them. An *AMOLED Black* setting gives pure black backgrounds in dark mode.
 - **Your accent color.** Each scheme starts with its own curated accent color. Pick a different one in **Settings → Appearance → Accent color** and links, buttons, tags and highlights all follow it.
 - **Rounded corners.** One slider in [Style Settings](https://github.com/community-archive/obsidian-style-settings) controls the corner radius, with a comfy 25px default.
 - **Colored headings and colored bold/italic.** Choose between the current theme's text color or Obsidian's built-in colored headings.
@@ -30,7 +30,7 @@ With the companion plugin [Fokus Window Mode](https://github.com/ike-V/obsidian-
 - **Sidebars stay put** until you leave, so a stray shortcut can't slide one over your text. When you come back, they're exactly how you left them.
 - **No scrollbars.** You can still scroll; the bar just isn't there.
 - **It's still a normal window.** You can drag it by the top edge, shake it around a bit, if so inclined.
-- **Leaving** is the same hotkey again, or the ⌄ chevron in the top-right corner. If you'd rather use only the hotkey, turn on *Hide chevron buttons*.
+- **Leaving** is the same hotkey again, or the ⌄ chevron in the top-right corner. If you'd rather use only the hotkey, turn on *Hide Chevron Buttons*.
 - **Nothing gets rearranged.** Your workspace and settings are left alone; it's a simple on/off switch.
 
 The hotkey isn't set by default. Turn on ⌘+\\ (Ctrl+\\ on Windows and Linux) in **Settings → Fokus Window Mode**, or pick any key you like in **Settings → Hotkeys**.
@@ -58,14 +58,14 @@ These appear under **[Style Settings](https://github.com/community-archive/obsid
 
 | Setting | What it does |
 |---|---|
-| Color scheme | Ayu, Catppuccin, Dracula, Everforest, Flexoki, Fokus (default), Fokus (muted), Gruvbox, Kanagawa, Night Owl, Nightfox, Nord, One, Paper, Placidity, Primer, Rosé Pine, Solarized, Tokyo Night, Violentz, Vitesse |
-| AMOLED black | Pure black backgrounds in dark mode |
-| Line length | How wide the text column is (needs *Readable line length* on) |
-| Corner radius | 0–40 px |
-| Colored headings | On or off |
-| Colored bold & italic | On or off |
-| Hide ribbon / tab bar / title bar / status bar | What the Fokus window hides |
-| Hide chevron buttons | Use only the hotkey to enter and leave |
+| Color Scheme | Ayu, Catppuccin, Dracula, Everforest, Flexoki, Fokus (default), Fokus (muted), Gruvbox, Kanagawa, Night Owl, Nightfox, Nord, One, Paper, Placidity, Primer, Rosé Pine, Solarized, Tokyo Night, Violentz, Vitesse |
+| AMOLED Black | Pure black backgrounds in dark mode |
+| Line Length | How wide the text column is (needs *Readable line length* on) |
+| Corner Radius | 0–40 px |
+| Colored Headings | On or off |
+| Colored Bold & Italic | On or off |
+| Hide Ribbon / Tab Bar / Title Bar / Status Bar | What the Fokus window hides |
+| Hide Chevron Buttons | Use only the hotkey to enter and leave |
 
 ## Credits
 
