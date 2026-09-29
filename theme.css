@@ -118,35 +118,35 @@ settings:
     -
         id: fokus-window-info
         title: Fokus window
-        description: "Needs the [Fokus Window Mode](obsidian://show-plugin?id=fokus) plugin for the settings below."
+        description: "[Fokus Window Mode](obsidian://show-plugin?id=fokus) plugin for settings below."
         type: info-text
         markdown: true
     -
         id: fokus-hide-ribbon
-        title: Hide the ribbon
-        description: In the Fokus window.
+        title: Hide ribbon
+        description: In Fokus window.
         type: class-toggle
         default: true
     -
         id: fokus-hide-tabs
-        title: Hide the tab bar
+        title: Hide tab bar
         type: class-toggle
         default: true
     -
         id: fokus-hide-header
-        title: Hide the title bar
+        title: Hide title bar
         description: Also hides back / forward.
         type: class-toggle
         default: true
     -
         id: fokus-hide-status
-        title: Hide the status bar
+        title: Hide status bar
         type: class-toggle
         default: true
     -
         id: fokus-hide-chevrons
-        title: Hide the chevron buttons
-        description: Use the hotkey.
+        title: Hide chevron buttons
+        description: Use hotkey.
         type: class-toggle
         default: false
 */

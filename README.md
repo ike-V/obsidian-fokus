@@ -30,7 +30,7 @@ With the companion plugin [Fokus Window Mode](https://github.com/ike-V/obsidian-
 - **Sidebars stay put** until you leave, so a stray shortcut can't slide one over your text. When you come back, they're exactly how you left them.
 - **No scrollbars.** You can still scroll; the bar just isn't there.
 - **It's still a normal window.** You can drag it by the top edge, shake it around a bit, if so inclined.
-- **Leaving** is the same hotkey again, or the ⌄ chevron in the top-right corner. If you'd rather use only the hotkey, turn on *Hide the chevron buttons*.
+- **Leaving** is the same hotkey again, or the ⌄ chevron in the top-right corner. If you'd rather use only the hotkey, turn on *Hide chevron buttons*.
 - **Nothing gets rearranged.** Your workspace and settings are left alone; it's a simple on/off switch.
 
 The hotkey isn't set by default. Turn on ⌘+\\ (Ctrl+\\ on Windows and Linux) in **Settings → Fokus Window Mode**, or pick any key you like in **Settings → Hotkeys**.
@@ -64,8 +64,8 @@ These appear under **[Style Settings](https://github.com/community-archive/obsid
 | Corner radius | 0–40 px |
 | Colored headings | On or off |
 | Colored bold & italic | On or off |
-| Hide the ribbon / tab bar / title bar / status bar | What the Fokus window hides |
-| Hide the chevron buttons | Use only the hotkey to enter and leave |
+| Hide ribbon / tab bar / title bar / status bar | What the Fokus window hides |
+| Hide chevron buttons | Use only the hotkey to enter and leave |
 
 ## Credits
 
