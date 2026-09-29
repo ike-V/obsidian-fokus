@@ -93,7 +93,7 @@ Many of the schemes are unofficial ports of these open-source palettes, all MIT 
 
 ## Feedback
 
-Fokus is tested on macOS and Linux. It should work well on Windows too, but if something looks off there, please [open an issue](https://github.com/ike-V/obsidian-fokus/issues).
+Fokus is tested on macOS, Windows and Linux. If something looks off, please [open an issue](https://github.com/ike-V/obsidian-fokus/issues).
 
 ## License
 
