@@ -1,5 +1,5 @@
 /* ============================================================
-   Fokus — v1.0.3
+   Fokus — v1.0.4
    Borderless, 21 color schemes + AMOLED. Fokus window via the
    Fokus Window Mode plugin.
    ============================================================ */
@@ -115,6 +115,12 @@ settings:
         title: Colored bold & italic
         type: class-toggle
         default: true
+    -
+        id: fokus-window-info
+        title: Fokus window
+        description: "Needs the [Fokus Window Mode](obsidian://show-plugin?id=fokus) plugin for the settings below."
+        type: info-text
+        markdown: true
     -
         id: fokus-hide-ribbon
         title: Hide the ribbon
