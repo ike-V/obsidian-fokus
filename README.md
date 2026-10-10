@@ -17,6 +17,7 @@ No divider lines anywhere. Carefully curated recreations of popular colorways, w
 - **Rounded corners.** One slider in [Style Settings](https://github.com/community-archive/obsidian-style-settings) controls the corner radius, with a comfy 25px default.
 - **Colored headings and colored bold/italic.** Choose between the current theme's text color or Obsidian's built-in colored headings.
 - **Adjustable line length** for the text column (with *Readable line length* turned on).
+- **Plugin support.** [Notebook Navigator](https://github.com/johansan/notebook-navigator)'s panes and selection match Fokus's sidebars.
 
 Fokus works on macOS, Windows, Linux, iOS and Android. On phones, the title bar shows just the note name, because there's no room for the folder path.
 
