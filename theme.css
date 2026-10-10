@@ -116,6 +116,12 @@ settings:
         type: class-toggle
         default: true
     -
+        id: fokus-hide-scrollbars
+        title: Hide Scrollbars
+        description: Everywhere; scrolling still works
+        type: class-toggle
+        default: true
+    -
         id: fokus-window-info
         title: Fokus Window
         description: "[Fokus Window Mode](obsidian://show-plugin?id=fokus)<br>plugin for settings below (for desktop only)"
@@ -1570,7 +1576,8 @@ body.fokus-collapsed.fokus-hide-status .status-bar {
   opacity: 0;
   pointer-events: none;
 }
-body.fokus-collapsed * {
+body.fokus-collapsed *,
+body.fokus-hide-scrollbars * {
   scrollbar-width: none;
 }
 body.fokus-collapsed.fokus-hide-tabs.fokus-hide-header .mod-root .markdown-source-view.mod-cm6 .cm-scroller,

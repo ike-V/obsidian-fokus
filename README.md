@@ -65,6 +65,7 @@ These appear under **[Style Settings](https://github.com/community-archive/obsid
 | Corner Radius | 0–40 px |
 | Colored Headings | On or off |
 | Colored Bold & Italic | On or off |
+| Hide Scrollbars | Hides scrollbars everywhere (on by default); scrolling still works |
 | Hide Ribbon / Tab Bar / Title Bar / Status Bar | What the Fokus window hides |
 | Hide Chevron Buttons | Use only the hotkey to enter and leave |
 
