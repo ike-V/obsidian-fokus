@@ -1451,6 +1451,11 @@ body:not(.fokus-collapsed) .workspace.is-right-sidedock-open .workspace-split.mo
   border-top-left-radius: var(--fk-corner);
 }
 
+/* ---- Sidebars: plugin panes painted with --background-primary take the sidebar tone */
+.workspace-split:is(.mod-left-split, .mod-right-split) {
+  --background-primary: var(--background-secondary);
+}
+
 /* ---- Notebook Navigator: match Fokus sidebars ---------------- */
 body:is(.theme-light, .theme-dark) {
   --nn-theme-nav-bg: var(--background-secondary);
