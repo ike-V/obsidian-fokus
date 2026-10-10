@@ -1451,6 +1451,22 @@ body:not(.fokus-collapsed) .workspace.is-right-sidedock-open .workspace-split.mo
   border-top-left-radius: var(--fk-corner);
 }
 
+/* ---- Notebook Navigator: match Fokus sidebars ---------------- */
+body:is(.theme-light, .theme-dark) {
+  --nn-theme-nav-bg: var(--background-secondary);
+  --nn-theme-list-bg: var(--background-secondary);
+  --nn-theme-navitem-hover-bg: var(--nav-item-background-hover);
+  --nn-theme-navitem-selected-bg: var(--nav-item-background-active);
+  --nn-theme-navitem-selected-inactive-bg: var(--nav-item-background-hover);
+  --nn-theme-navitem-selected-name-color: var(--nav-item-color-active);
+  --nn-theme-file-selected-bg: var(--nav-item-background-active);
+  --nn-theme-file-selected-inactive-bg: var(--nav-item-background-hover);
+  --nn-theme-file-selected-name-color: var(--nav-item-color-active);
+  --nn-theme-navitem-border-radius: var(--nav-item-radius);
+  --nn-theme-file-border-radius: var(--nav-item-radius);
+  --nn-theme-header-button-hover-bg: var(--nav-item-background-hover);
+}
+
 /* Note text: schemes may set --fk-note-text to recolor text inside notes only */
 .markdown-source-view,
 .markdown-preview-view {
