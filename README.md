@@ -99,4 +99,4 @@ Fokus is tested on macOS, Windows and Linux. If something looks off, please [ope
 
 ## License
 
-[MIT](LICENSE)
+All rights reserved, except the third-party palettes listed under Credits, which keep their own licences. See [LICENSE](LICENSE).
